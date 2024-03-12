@@ -54,8 +54,8 @@
                             <i class="ion-paper-airplane"></i>
                         </div>
                         <div class="features-content">
-                            <h5>Free Shipping</h5>
-                            <p>Free delivery on all orders over $99</p>
+                            <h5>Fast Delivery</h5>
+                            <p>Swift shipping for all orders</p>
                         </div>
                     </div>
                     <div class="single-features-item">
@@ -69,11 +69,11 @@
                     </div>
                     <div class="single-features-item">
                         <div class="features-icon">
-                            <i class="ion-help-buoy"></i>
+                            <i class="bi bi-stars"></i>
                         </div>
                         <div class="features-content">
-                            <h5>Free Shipping</h5>
-                            <p>Free delivery on all orders over $99</p>
+                            <h5>High Quality</h5>
+                            <p>Quality assured, satisfaction guaranteed</p>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="meta description">
-    <title>Selena - Organic eCommerce Bootstrap 5 Template</title>
+    <title>SRS Exports Holdings</title>
 
     @include('home.libraries.styles')
 
