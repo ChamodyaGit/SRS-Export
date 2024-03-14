@@ -206,7 +206,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="copyright-text text-center text-md-start">
-                            <p>© 2023 <b>Selena</b> Made with <i class="fa fa-heart text-danger"></i> by <a href="https://hasthemes.com/">HasThemes</a></p>
+                            <p>© {{ date('Y') }} <b>SRS</b> Made with <i class="fa fa-heart text-danger"></i> by <a href="mailto:chamodya152@gmail.com">Chamodya</a></p>
                         </div>
                     </div>
                     <div class="col-md-6">

@@ -34,10 +34,13 @@
                         <!-- main menu navbar start -->
                         <nav id="mobile-menu">
                             <ul>
-                                <li><a href="about-us.html">Home</a></li>
-                                <li><a href="contact-us.html">Blog</a></li>
-                                <li><a href="about-us.html">About us</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                                <li class="{{ in_array(Route::currentRouteName(), ['home']) ? 'active' : '' }}"><a
+                                        href="{{ route('home') }}">Home</a></li>
+                                <li><a href="about-us.html">Blog</a></li>
+                                <li class="{{ in_array(Route::currentRouteName(), ['about']) ? 'active' : '' }}"><a
+                                        href="{{ route('about') }}">About Us</a></li>
+                                <li class="{{ in_array(Route::currentRouteName(), ['contact']) ? 'active' : '' }}"><a
+                                        href="{{ route('contact') }}">Contact Us</a></li>
                             </ul>
                         </nav>
                         <!-- main menu navbar end -->
