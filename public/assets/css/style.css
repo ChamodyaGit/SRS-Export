@@ -503,11 +503,11 @@ table tbody {
 }
 
 .color3 {
-  background-color: #95e0d2;
+  background-color: #aceade;
 }
 
 .color4 {
-  background-color: #fa8383;
+  background-color: #fbadad;
 }
 
 .c-red {
@@ -6013,6 +6013,9 @@ table tbody {
 }
 .copyright-text p a:hover {
   color: #62d2a2;
+}
+.social-icon-colors{
+    color: #666666;
 }
 
 /*------- footer bottom end -------*/

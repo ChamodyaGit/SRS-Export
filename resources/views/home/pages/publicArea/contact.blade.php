@@ -66,9 +66,17 @@
                                 Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit
                                 litterarum formas human.</p>
                             <ul>
-                                <li><i class="fa fa-fax"></i> Address : Your address goes here</li>
-                                <li><i class="fa fa-phone"></i> demo@example.com</li>
-                                <li><i class="fa fa-envelope-o"></i> 0123456789</li>
+                                <li><i class="fa fa-fax"></i> Address : 91/1, Dalukgalpotta, Olaganduwa, Induruwa</li>
+                                <li><i class="fa fa-phone"></i> 0123456789</li>
+                                <li><i class="fa fa-envelope-o"></i> sampathwkd@gmail.com</li>
+                                <li>
+                                    <a href="#" class="social-icon-colors fs-4 me-2"><i
+                                            class="fa fa-facebook"></i></a>
+                                    <a href="#" class="social-icon-colors fs-4 me-2"><i
+                                            class="fa fa-whatsapp"></i></a>
+                                    <a href="#" class="social-icon-colors fs-4 me-2"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="social-icon-colors fs-4 me-2"><i class="fa fa-youtube"></i></a>
+                                </li>
                             </ul>
                             <div class="working-time">
                                 <h3>Working hours</h3>
@@ -89,7 +97,10 @@
             {{-- <div id="map_content" data-lat="6.5202030" data-lng="79.9932100" data-zoom="10"
                 data-maptitle="Hastech" data-mapaddress="Maggona, Sri Lanka">
             </div> --}}
-            <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Weheragala%20Kanda,%20Temple%20Road,%20Pothuwila,%20Payagala+(SRS%20Exports%20Holdings)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
+            <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Weheragala%20Kanda,%20Temple%20Road,%20Pothuwila,%20Payagala+(SRS%20Exports%20Holdings)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                        href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
         </div>
         <!-- map area end -->
     </main>

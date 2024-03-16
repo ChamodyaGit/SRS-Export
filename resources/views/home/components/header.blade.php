@@ -22,12 +22,12 @@
                 <div class="col-12">
                     <div class="main-menu d-flex justify-content-between">
                         <div class="logo d-none d-lg-block">
-                            <a href="index.html">
+                            <a href="{{ route('home') }}">
                                 <img src="assets/img/logo/srs-logo.png" height="50" alt="brand logo">
                             </a>
                         </div>
                         <div class="sticky-logo d-lg-none">
-                            <a href="index.html">
+                            <a href="{{ route('home') }}">
                                 <img src="assets/img/logo/srs-logo.png" height="50" alt="brand logo">
                             </a>
                         </div>

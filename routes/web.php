@@ -17,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'aboutUs'])->name('about');
 Route::get('/contact', [HomeController::class, 'contactUs'])->name('contact');
+Route::get('/mexican', [HomeController::class, 'mexicanPage'])->name('mexican');
+
 Route::post('/send', [HomeController::class, 'sendMail'])->name('mail.send');

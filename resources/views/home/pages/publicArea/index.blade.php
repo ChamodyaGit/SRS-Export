@@ -1,7 +1,6 @@
 @extends('home.layouts.app')
 @section('content')
-
-<main>
+    <main>
         <!-- hero slider area start -->
         <section class="hero-slider-area">
             <div class="hero-slider-active slider-arrow-style">
@@ -13,7 +12,7 @@
                                     <div class="slider-content">
                                         <h1>tasty healthy <br>we sell what's<br>good for you </h1>
                                         <p>We supply highly quality, premium organic products</p>
-                                        <a href="shop.html" class="btn">Contact Us</a>
+                                        <a href="{{ route('contact') }}" class="btn">Contact Us</a>
                                     </div>
                                     <div class="slider-img">
                                         <img src="assets/img/slider/cinnamon-slide1.png" alt="">
@@ -31,7 +30,7 @@
                                     <div class="slider-content">
                                         <h1>Great offers<br>on fruits <br>and vegetables </h1>
                                         <p>We supply highly quality, premium organic products</p>
-                                        <a href="shop.html" class="btn">Contact Us</a>
+                                        <a href="{{ route('contact') }}" class="btn">Contact Us</a>
                                     </div>
                                     <div class="slider-img">
                                         <img src="assets/img/slider/cinnamon-slide2.png" alt="">
@@ -96,8 +95,7 @@
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color1 text-center">
                                 <div class="category-content">
-                                    <h2><a href="product-details.html">vegetables</a></h2>
-                                    <p>2 product</p>
+                                    <h2><a href="product-details.html">Alba Cinnamon</a></h2>
                                 </div>
                                 <div class="category-thumb">
                                     <a href="product-details.html">
@@ -111,8 +109,7 @@
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color2 text-center">
                                 <div class="category-content">
-                                    <h2><a href="product-details.html">fruits</a></h2>
-                                    <p>2 product</p>
+                                    <h2><a href="product-details.html">C5 Special</a></h2>
                                 </div>
                                 <div class="category-thumb">
                                     <a href="product-details.html">
@@ -126,8 +123,7 @@
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color3 text-center">
                                 <div class="category-content">
-                                    <h2><a href="product-details.html">juice</a></h2>
-                                    <p>2 product</p>
+                                    <h2><a href="product-details.html">M5 Special</a></h2>
                                 </div>
                                 <div class="category-thumb">
                                     <a href="product-details.html">
@@ -141,8 +137,7 @@
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color4 text-center">
                                 <div class="category-content">
-                                    <h2><a href="product-details.html">meats</a></h2>
-                                    <p>2 product</p>
+                                    <h2><a href="product-details.html">H2 Special</a></h2>
                                 </div>
                                 <div class="category-thumb">
                                     <a href="product-details.html">
@@ -201,8 +196,10 @@
                                                         <img src="assets/img/product/product-1.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -224,9 +221,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -238,8 +238,10 @@
                                                         <img src="assets/img/product/product-2.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -261,9 +263,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -275,8 +280,10 @@
                                                         <img src="assets/img/product/product-3.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -298,9 +305,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -312,8 +322,10 @@
                                                         <img src="assets/img/product/product-4.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -335,9 +347,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -349,8 +364,10 @@
                                                         <img src="assets/img/product/product-5.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -372,9 +389,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -386,8 +406,10 @@
                                                         <img src="assets/img/product/product-6.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -409,9 +431,12 @@
                                                         <span class="old-price"><del>$140.00</del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -423,8 +448,10 @@
                                                         <img src="assets/img/product/product-7.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -446,9 +473,12 @@
                                                         <span class="old-price"><del>$90.00</del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -460,8 +490,10 @@
                                                         <img src="assets/img/product/product-8.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -483,9 +515,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -503,8 +538,10 @@
                                                         <img src="assets/img/product/product-5.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -526,9 +563,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -540,8 +580,10 @@
                                                         <img src="assets/img/product/product-10.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -563,9 +605,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -577,8 +622,10 @@
                                                         <img src="assets/img/product/product-13.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -600,9 +647,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -614,8 +664,10 @@
                                                         <img src="assets/img/product/product-15.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -637,9 +689,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -657,8 +712,10 @@
                                                         <img src="assets/img/product/product-6.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -680,9 +737,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -694,8 +754,10 @@
                                                         <img src="assets/img/product/product-3.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -717,9 +779,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -731,8 +796,10 @@
                                                         <img src="assets/img/product/product-2.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -754,9 +821,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -768,8 +838,10 @@
                                                         <img src="assets/img/product/product-1.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -791,9 +863,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -811,8 +886,10 @@
                                                         <img src="assets/img/product/product-7.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -834,9 +911,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -848,8 +928,10 @@
                                                         <img src="assets/img/product/product-8.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -871,9 +953,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -885,8 +970,10 @@
                                                         <img src="assets/img/product/product-9.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -908,9 +995,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -922,8 +1012,10 @@
                                                         <img src="assets/img/product/product-6.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -945,9 +1037,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -965,8 +1060,10 @@
                                                         <img src="assets/img/product/product-11.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -988,9 +1085,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1002,8 +1102,10 @@
                                                         <img src="assets/img/product/product-12.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -1025,9 +1127,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i
+                                                                class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1039,8 +1144,10 @@
                                                         <img src="assets/img/product/product-14.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -1062,9 +1169,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip"
+                                                            title="Add to cart"><i class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1076,8 +1186,10 @@
                                                         <img src="assets/img/product/product-16.jpg" alt="">
                                                     </a>
                                                     <div class="quick-view-link">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                            <span data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                        <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#quick_view">
+                                                            <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                                    class="ion-ios-eye-outline"></i></span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -1099,9 +1211,12 @@
                                                         <span class="old-price"><del></del></span>
                                                     </div>
                                                     <div class="product-action-link">
-                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Add to cart"><i class="ion-bag"></i></a>
-                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i class="ion-ios-shuffle"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Wishlist"><i
+                                                                class="ion-android-favorite-outline"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip"
+                                                            title="Add to cart"><i class="ion-bag"></i></a>
+                                                        <a href="#" data-bs-toggle="tooltip" title="Compare"><i
+                                                                class="ion-ios-shuffle"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1135,8 +1250,9 @@
                                         <div class="card">
                                             <div class="card-header" id="headingOne">
                                                 <h5 class="mb-0">
-                                                    <button class="accordio-heading" type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    <button class="accordio-heading" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
                                                         <i class="ion-ribbon-b"></i>
                                                         100% fresh organic food
                                                     </button>
@@ -1157,8 +1273,9 @@
                                         <div class="card">
                                             <div class="card-header" id="headingTwo">
                                                 <h5 class="mb-0">
-                                                    <button class="accordio-heading" type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseTwo" aria-controls="collapseTwo">
+                                                    <button class="accordio-heading" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-controls="collapseTwo">
                                                         <i class="ion-android-car"></i>
                                                         Fast Free Delivery
                                                     </button>
@@ -1179,8 +1296,9 @@
                                         <div class="card">
                                             <div class="card-header" id="headingThree">
                                                 <h5 class="mb-0">
-                                                    <button class="accordio-heading" type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-controls="collapseThree">
+                                                    <button class="accordio-heading" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                        aria-controls="collapseThree">
                                                         <i class="ion-university"></i>
                                                         Rich Experience
                                                     </button>
@@ -1218,20 +1336,20 @@
                                         <ul class="nav">
                                             <li>
                                                 <a data-bs-toggle="tab" href="#testimonial_one">
-                                                    <img class="testimonial-thumb" src="assets/img/testimonial/team-member-1.jpg"
-                                                        alt="">
+                                                    <img class="testimonial-thumb"
+                                                        src="assets/img/testimonial/team-member-1.jpg" alt="">
                                                 </a>
                                             </li>
                                             <li>
                                                 <a class="active" data-bs-toggle="tab" href="#testimonial_two">
-                                                    <img class="testimonial-thumb" src="assets/img/testimonial/team-member-2.jpg"
-                                                        alt="">
+                                                    <img class="testimonial-thumb"
+                                                        src="assets/img/testimonial/team-member-2.jpg" alt="">
                                                 </a>
                                             </li>
                                             <li>
                                                 <a data-bs-toggle="tab" href="#testimonial_three">
-                                                    <img class="testimonial-thumb" src="assets/img/testimonial/team-member-3.jpg"
-                                                        alt="">
+                                                    <img class="testimonial-thumb"
+                                                        src="assets/img/testimonial/team-member-3.jpg" alt="">
                                                 </a>
                                             </li>
                                         </ul>
@@ -1332,8 +1450,9 @@
                                                 <img src="assets/img/product/product-1.jpg" alt="">
                                             </a>
                                             <div class="quick-view-link">
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view"> <span
-                                                        data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
+                                                    <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                            class="ion-ios-eye-outline"></i></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -1358,8 +1477,9 @@
                                                 <img src="assets/img/product/product-2.jpg" alt="">
                                             </a>
                                             <div class="quick-view-link">
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view"> <span
-                                                        data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
+                                                    <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                            class="ion-ios-eye-outline"></i></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -1384,8 +1504,9 @@
                                                 <img src="assets/img/product/product-3.jpg" alt="">
                                             </a>
                                             <div class="quick-view-link">
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view"> <span
-                                                        data-bs-toggle="tooltip" title="Quick view"><i class="ion-ios-eye-outline"></i></span>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
+                                                    <span data-bs-toggle="tooltip" title="Quick view"><i
+                                                            class="ion-ios-eye-outline"></i></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -1459,7 +1580,8 @@
                                             <i class="ion-ios-calendar-outline"></i>
                                             <span>01 Jan 2023</span>
                                         </div>
-                                        <h5 class="post-title"><a href="blog-details.html">post with audio format</a></h5>
+                                        <h5 class="post-title"><a href="blog-details.html">post with audio format</a>
+                                        </h5>
                                         <p>Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo
                                             ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus
                                             fermentum eleifend</p>
@@ -1477,7 +1599,8 @@
                                             <i class="ion-ios-calendar-outline"></i>
                                             <span>01 Jan 2023</span>
                                         </div>
-                                        <h5 class="post-title"><a href="blog-details.html">post with audio format</a></h5>
+                                        <h5 class="post-title"><a href="blog-details.html">post with audio format</a>
+                                        </h5>
                                         <p>Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo
                                             ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus
                                             fermentum eleifend</p>
@@ -1495,7 +1618,8 @@
                                             <i class="ion-ios-calendar-outline"></i>
                                             <span>01 Jan 2023</span>
                                         </div>
-                                        <h5 class="post-title"><a href="blog-details.html">post with audio format</a></h5>
+                                        <h5 class="post-title"><a href="blog-details.html">post with audio format</a>
+                                        </h5>
                                         <p>Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo
                                             ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus
                                             fermentum eleifend</p>
@@ -1557,5 +1681,4 @@
         <!-- brand area end -->
 
     </main>
-
 @endsection

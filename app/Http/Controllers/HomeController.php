@@ -23,6 +23,11 @@ class HomeController extends Controller
         return view('home.pages.publicArea.contact');
     }
 
+    public function mexicanPage()
+    {
+        return view('home.pages.publicArea.category.mexican');
+    }
+
     public function sendMail(Request $request)
     {
         $request->validate([
