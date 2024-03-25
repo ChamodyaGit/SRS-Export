@@ -123,10 +123,10 @@
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color3 text-center">
                                 <div class="category-content">
-                                    <h2><a href="product-details.html">M5 Special</a></h2>
+                                    <h2><a href="{{ route('mexican') }}">M5 Special</a></h2>
                                 </div>
                                 <div class="category-thumb">
-                                    <a href="product-details.html">
+                                    <a href="{{ route('mexican') }}">
                                         <img src="assets/img/category/cat-3.png" alt="">
                                     </a>
                                 </div>

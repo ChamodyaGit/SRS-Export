@@ -25,7 +25,7 @@ class HomeController extends Controller
 
     public function mexicanPage()
     {
-        return view('home.pages.publicArea.category.mexican');
+        return view('home.pages.publicArea.category.Mexican.mexican');
     }
 
     public function sendMail(Request $request)
