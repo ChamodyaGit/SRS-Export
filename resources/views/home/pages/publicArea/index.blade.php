@@ -95,10 +95,10 @@
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color1 text-center">
                                 <div class="category-content">
-                                    <h2><a href="product-details.html">Alba Cinnamon</a></h2>
+                                    <h2><a href="{{ route('alba') }}">Alba Cinnamon</a></h2>
                                 </div>
                                 <div class="category-thumb">
-                                    <a href="product-details.html">
+                                    <a href="{{ route('alba') }}">
                                         <img src="assets/img/category/cat-1.png" alt="">
                                     </a>
                                 </div>

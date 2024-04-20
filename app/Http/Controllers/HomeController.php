@@ -23,6 +23,11 @@ class HomeController extends Controller
         return view('home.pages.publicArea.contact');
     }
 
+    public function albaPage()
+    {
+        return view('home.pages.publicArea.category.Alba.alba');
+    }
+
     public function mexicanPage()
     {
         return view('home.pages.publicArea.category.Mexican.mexican');
