@@ -1,0 +1,76 @@
+on:
+  push:
+    branches:
+      - main
+
+name: 🚀 Deploy website on push
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ftp.customdevs.elementfx.com
+          username: tharindu@customdevs.elementfx.com
+          password: Wikum@123
+          server-dir: /
+
+      # - name: 📝 Create .env file
+      #   run: |
+      #     echo "DB_CONNECTION=mysql" >> .env
+      #     echo "APP_NAME=ITS" >> .env
+      #     echo "DB_HOST=127.0.0.1" >> .env
+      #     echo "DB_PORT=3306" >> .env
+      #     echo "DB_DATABASE=aopjfvxq_it" >> .env
+      #     echo "DB_USERNAME=aopjfvxq_it" >> .env
+      #     echo "DB_PASSWORD=ICBTKandy@1234" >> .env
+
+      # - name: 🛠 Verify .env file
+      #   run: cat .env
+
+      # - name: 🛠 Remove existing vendor folder
+      #   run: rm -rf vendor
+
+      # - name: 🚧 Remove composer.lock
+      #   run: rm -rf composer.lock
+
+      # - name: 🛠 Install PHP dependencies
+      #   run: composer install --no-dev --optimize-autoloader
+
+      # - name: 🔐 Generate App Key
+      #   run: php artisan key:generate
+
+      # - name: 🧹 Clear Cache and Config
+      #   run: |
+      #     php artisan config:clear
+      #     php artisan cache:clear
+
+      # - name: 🏪 Link Storage
+      #   run: php artisan storage:link
+
+      # - name: 🏪 Run Migrations
+      #   run: |
+      #     php artisan migrate
+      #     php artisan db:seed
+
+      # - name: 🏗 Remove existing Node Modules Folder
+      #   run: rm -rf node_modules
+
+      # - name: 🚧 Remove package-lock.json
+      #   run: rm -rf package-lock.json
+
+      # - name: 🚧 Install Vite dependencies
+      #   run: npm install
+
+      # - name: 🔐 Storage Permissions
+      #   run: chmod -R u=rwX,go=rX ./
+
+      # - name: 🚧 Build assets with Vite
+      #   run: npm run build
