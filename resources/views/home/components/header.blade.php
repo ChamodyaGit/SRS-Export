@@ -36,7 +36,7 @@
                             <ul>
                                 <li class="{{ in_array(Route::currentRouteName(), ['home']) ? 'active' : '' }}"><a
                                         href="{{ route('home') }}">Home</a></li>
-                                <li><a href="about-us.html">Blog</a></li>
+                                <li><a href="#">Blog</a></li>
                                 <li class="{{ in_array(Route::currentRouteName(), ['about']) ? 'active' : '' }}"><a
                                         href="{{ route('about') }}">About Us</a></li>
                                 <li class="{{ in_array(Route::currentRouteName(), ['contact']) ? 'active' : '' }}"><a

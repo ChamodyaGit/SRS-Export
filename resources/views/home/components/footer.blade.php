@@ -182,11 +182,11 @@
                                 <div class="newsletter-desc">
                                     <p>Subscribe to the Kavir mailing list to receive updates on new arrivals,
                                         special offers and other discount information.</p>
-                                    <form id="mc-form">
+                                    <a id="mc-form" href="{{ route('contact') }}">
                                         <input type="email" id="mc-email" autocomplete="off"
                                             placeholder="Your email address">
-                                        <button id="mc-submit"><i class="ion-paper-airplane"></i>subscribe</button>
-                                    </form>
+                                        <button id="mc-submit"><i class="ion-headphone"></i>Contact</button>
+                                    </a>
                                     <!-- mailchimp-alerts Start -->
                                     <div class="mailchimp-alerts">
                                         <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->

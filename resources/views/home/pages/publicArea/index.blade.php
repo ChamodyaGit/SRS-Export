@@ -1535,30 +1535,155 @@
         <!-- best sellers area end -->
 
         <!-- banner statistic area start -->
-        <div class="banner-statistics">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="img-container mb-sm-30">
-                            <a href="product-details.html">
-                                <img src="assets/img/banner/banner-1.jpg" alt="banner-image">
-                            </a>
+        <section class="bg-gray py-5">
+            <div class="banner-statistics">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-title text-center">
+                                <h2>Cinnamon Grades</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="img-container mb-sm-30">
-                            <a href="product-details.html">
-                                <img src="assets/img/banner/banner-2.jpg" alt="banner-image">
-                            </a>
+                        <div class="col-12">
+                            <!-- Cart Table Area -->
+                            <div class="cart-table table-responsive">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th width="20%">Grade</th>
+                                            <th width="20%">Diameter of cinnamon sticks<br />(Maximum)<br />(mm)
+                                            </th>
+                                            <th width="20%">Number of 42 inch long cinnamon sticks in 1 kg</th>
+                                            <th width="20%">Gross size (maximum) as a percentage of freckles</th>
+                                            <th width="20%">Width of bark to be taken in making cinnamon<br />(mm)
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span>Alba</span></td>
+                                            <td><span>6</span></td>
+                                            <td><span>45</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>22</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-topic">Continental</span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C5 (Very special)</span></td>
+                                            <td><span>8</span></td>
+                                            <td><span>33</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>29</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C5 (Special)</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>30</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>35</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C5</span></td>
+                                            <td><span>12</span></td>
+                                            <td><span>27</span></td>
+                                            <td><span>15</span></td>
+                                            <td><span>42</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C4</span></td>
+                                            <td><span>16</span></td>
+                                            <td><span>22</span></td>
+                                            <td><span>15</span></td>
+                                            <td><span>54</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C3</span></td>
+                                            <td><span>18</span></td>
+                                            <td><span>20</span></td>
+                                            <td><span>20</span></td>
+                                            <td><span>61</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-topic">Mexican</span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>M5 (Special)</span></td>
+                                            <td><span>16</span></td>
+                                            <td><span>22</span></td>
+                                            <td><span>60</span></td>
+                                            <td><span>54</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>M5</span></td>
+                                            <td><span>18</span></td>
+                                            <td><span>20</span></td>
+                                            <td><span>60</span></td>
+                                            <td><span>60</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>M4</span></td>
+                                            <td><span>21</span></td>
+                                            <td><span>15</span></td>
+                                            <td><span>60</span></td>
+                                            <td><span>70</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-topic">Hamburg</span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>H1</span></td>
+                                            <td><span>23</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>25</span></td>
+                                            <td><span>76</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>H2 (Special)</span></td>
+                                            <td><span>25</span></td>
+                                            <td><span>09</span></td>
+                                            <td><span>40</span></td>
+                                            <td><span>83</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>H2</span></td>
+                                            <td><span>32</span></td>
+                                            <td><span>07</span></td>
+                                            <td><span>55</span></td>
+                                            <td><span>105</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>H3</span></td>
+                                            <td><span>38</span></td>
+                                            <td><span>06</span></td>
+                                            <td><span>65</span></td>
+                                            <td><span>123</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- banner statistic area end -->
 
         <!-- latest news area start -->
-        <section class="latest-news-area latest-news-area__style1 fix pt-60 pb-60 pt-sm-30">
+        {{-- <section class="latest-news-area latest-news-area__style1 fix pt-60 pb-60 pt-sm-30">
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
                     <div class="col-12">
@@ -1566,7 +1691,7 @@
                             <h2>from the blogs</h2>
                         </div>
                     </div>
-                </div> <!-- end section title -->
+                </div>
                 <div class="row no-gutters">
                     <div class="col-12">
                         <div class="blog-slider slick-padding">
@@ -1631,7 +1756,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- latest news area end -->
 
         <!-- brand area start -->

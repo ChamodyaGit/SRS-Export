@@ -28,20 +28,7 @@
                     <div class="col-lg-3 order-2 order-lg-1">
                         <div class="blog-sidebar-wrapper pt-md-60 pt-sm-60">
 
-                            <div class="blog-sidebar">
-                                <h4 class="title">categories</h4>
-                                <ul class="blog-archive blog-category">
-                                    <li><a href="#">Alba Cinnamon</a></li>
-                                    <li><a href="{{ route('alba') }}"
-                                            style="{{ Route::currentRouteName() === 'alba' ? 'color: #62d2a2;' : '' }}">Alba Cinnamon</a></li>
-                                    <li><a href="#">Continental</a></li>
-                                    <li>
-                                        <a href="{{ route('mexican') }}"
-                                            style="{{ Route::currentRouteName() === 'mexican' ? 'color: #62d2a2;' : '' }}">Mexican</a>
-                                    </li>
-                                    <li><a href="#">Hamburg</a></li>
-                                </ul>
-                            </div> <!-- single sidebar end -->
+                            @include('home.components.category_sidebar') <!-- single sidebar end -->
 
                         </div>
                     </div>
@@ -56,7 +43,7 @@
                                     </div>
                                     <div class="blog-inner-content">
                                         <h5 class="cat-name"><a href="#">Cinnamon</a></h5>
-                                        <h3><a href="blog-details.html">M5 Special</a></h3>
+                                        <h3>M5 Special</h3>
                                         <ul class="blog-meta">
                                             {{-- <li>Post by: <span>Admin</span></li>
                                             <li>March 10 2023</li> --}}
@@ -76,7 +63,7 @@
                                     </div>
                                     <div class="blog-inner-content">
                                         <h5 class="cat-name"><a href="#">Cinnamon</a></h5>
-                                        <h3><a href="blog-details.html">M4</a></h3>
+                                        <h3>M4</h3>
                                         <ul class="blog-meta">
                                             {{-- <li>Post by: <span>Admin</span></li>
                                             <li>March 10 2023</li> --}}

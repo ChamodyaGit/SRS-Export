@@ -5007,26 +5007,33 @@ table tbody {
 /*--------- Cart Page Wrapper Start ---------*/
 .cart-table .table {
   margin: 0;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 .cart-table .table thead {
   background-color: #62d2a2;
 }
 .cart-table .table thead tr th {
-  border-color: #62d2a2;
-  border-bottom: 0 solid transparent;
+  border-color: #ffffff;
+  /* border: 0 solid transparent; */
   color: #fff;
   font-size: 14px;
   font-weight: 600;
   padding: 15px 20px;
-  text-align: center;
-  text-transform: uppercase;
 }
-.cart-table .table tbody tr td {
+.cart-table .table tbody td {
+    background: white;
   border-color: #ccc;
   text-align: center;
   padding: 10px 20px;
-  vertical-align: middle;
+  font-weight: 600;
+  color: #333333;
+}
+.cart-table .table tbody tr .bg-topic {
+    background: #f8f8f8 !important;
+}
+.cart-table .table tbody tr {
+  border-color: #ccc;
+  padding: 10px 20px;
   font-weight: 600;
   color: #333333;
 }
