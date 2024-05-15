@@ -30,7 +30,7 @@ jobs:
       #     echo "DB_PORT=3306" >> .env
       #     echo "DB_DATABASE=aopjfvxq_it" >> .env
       #     echo "DB_USERNAME=aopjfvxq_it" >> .env
-      #     echo "DB_PASSWORD=ICBTKandy@1234" >> .env
+      #     echo "DB_PASSWORD=["test"]" >> .env
 
       # - name: 🛠 Verify .env file
       #   run: cat .env
