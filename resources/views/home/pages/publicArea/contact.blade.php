@@ -27,22 +27,16 @@
                 <div class="row g-0">
                     <div class="col-lg-6">
                         <div class="contact-message pt-56 pb-60">
-                            <h2>tell us your project</h2>
+                            <h2>Tell us what you want</h2>
                             <form id="contact-form" action="{{ route('mail.send') }}" method="post" class="contact-form"
                                 enctype="multipart/form-data">
                                 @csrf
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="col-12">
                                         <input name="first_name" placeholder="Name *" type="text" required>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <input name="phone" placeholder="Phone *" type="text" required>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="col-12">
                                         <input name="email_address" placeholder="Email *" type="text" required>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <input name="contact_subject" placeholder="Subject *" type="text">
                                     </div>
                                     <div class="col-12">
                                         <div class="contact2-textarea text-center">
@@ -62,13 +56,13 @@
                     <div class="col-lg-6">
                         <div class="contact-info bg-gray pt-56 pb-md-46 mb-sm-24">
                             <h2>contact us</h2>
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
-                                Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit
-                                litterarum formas human.</p>
+                            <p>We produce our own products to the international market. Pure cinnamon sticks, quills,
+                                Cinnamon Powder/Ground cinnamon and Cinnamon oil are our major products. Clove, Peppers and
+                                other spices and also pure coconut oil are the other products we‘re producing.</p>
                             <ul>
                                 <li><i class="fa fa-fax"></i> Address : 91/1, Dalukgalpotta, Olaganduwa, Induruwa</li>
-                                <li><i class="fa fa-phone"></i> 0123456789</li>
-                                <li><i class="fa fa-envelope-o"></i> sampathwkd@gmail.com</li>
+                                <li><a href="tel:+94710215712" class="contact-txt-color"><i class="fa fa-phone"></i> +94 71 021 5712</a></li>
+                                <li><a href="mailto:sampathwkd@gmail.com" class="contact-txt-color"><i class="fa fa-envelope-o"></i> sampathwkd@gmail.com</a></li>
                                 <li>
                                     <a href="#" class="social-icon-colors fs-4 me-2"><i
                                             class="fa fa-facebook"></i></a>

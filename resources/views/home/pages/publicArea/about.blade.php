@@ -1,7 +1,6 @@
 @extends('home.layouts.app')
 @section('content')
-
-<main>
+    <main>
         <!-- breadcrumb area start -->
         <div class="breadcrumb-area">
             <div class="container">
@@ -29,15 +28,16 @@
                     <!-- About Text Start -->
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-text-wrap">
-                            <h2><span>Provide Best</span>Product For You</h2>
-                            <p>We provide the best Beard oile all over the world. We are the worldd best store in indi
-                                for Beard Oil. You can buy our product without any hegitation because they truste us
-                                and buy our product without any hagitation because they belive and always happy buy our
-                                product.</p>
-                            <p>Some of our customer say’s that they trust us and buy our product without any hagitation
-                                because they belive us and always happy to buy our product.</p>
-                            <p>We provide the beshat they trusted us and buy our product without any hagitation because
-                                they belive us and always happy to buy.</p>
+                            <h2><span>Provide Best</span>SRS Exports Holdings</h2>
+                            <p>SRS Exports Holdings is specializing in the export of high-quality Ceylon cinnamon products
+                                in Southern Province of Sri Lanka established in 2023. We have taken utmost of care in
+                                processing our products to uplift your healthy lifestyle. </p>
+                            <p>Ceylon cinnamon is known as ‘true cinnamon’ and ‘pure cinnamon’. It is obtained from the bark
+                                of <i>Cinnamomum zeylanicum</i>, which is an evergreen plant native to Sri Lanka (Ceylon).
+                            </p>
+                            <p> The 90% of world production of true cinnamon originates from Sri Lanka. The unique method of
+                                processing and curing of cinnamon entices the characteristic flavor of cinnamon production
+                                of other countries. </p>
                         </div>
                     </div>
                     <!-- About Text End -->
@@ -211,16 +211,18 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="single-choose-item text-center mb-md-30 mb-sm-30">
-                            <i class="fa fa-globe"></i>
-                            <h4>free shipping</h4>
-                            <p>Amadea Shop is a very slick and clean e-commerce template with endless possibilities.</p>
+                            <i class="fa fa-star"></i>
+                            <h4>Quality Assurance</h4>
+                            <p>Good Manufacturing Process(GMP) certified Company and Fair Trade to ensure product quality
+                                and ethical practices.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="single-choose-item text-center mb-md-30 mb-sm-30">
                             <i class="fa fa-plane"></i>
-                            <h4>fast delivery</h4>
-                            <p>Amadea Shop is a very slick and clean e-commerce template with endless possibilities.</p>
+                            <h4>Custom Packaging & distribution</h4>
+                            <p>Tailored packaging solutions to meet client specifications. Worldwide service will be
+                                provided in to an any destination.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -235,5 +237,4 @@
         </div>
         <!-- choosing area end -->
     </main>
-
 @endsection
