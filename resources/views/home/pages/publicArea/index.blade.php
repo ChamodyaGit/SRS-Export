@@ -465,115 +465,112 @@
         </section>
         <!-- choose us and testimonial area start -->
 
-        <!-- best sellers area start -->
-        <section class="best-sellers pt-60 pb-60 pb-lg-30 pb-md-30 pb-sm-30">
+        <!-- brand area start -->
+        <div class="brand-area">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="best-sellers-banner">
-                            <img src="assets/img/banner/best-sellers.png" alt="">
+                <div class="brand-inner pt-30 pb-30 mb-md-4">
+                    {{-- <div class="footer-widget-title text-center">
+                        <h4>SRS Exports Holdings</h4>
+                    </div> --}}
+                    <div class="section-title text-center mt-md-3">
+                        <h2>Categories</h2>
+                    </div>
+                    <div class="brand-active slick-padding justify-content-center">
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr1.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr2.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr3.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr4.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr5.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr6.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr7.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr8.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr9.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr10.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr11.png" alt="brand image">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="best-sellers-content pt-md-60 pt-sm-60">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="section-title section-title__2">
-                                        <h2>best sellers</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="single-item mb-30">
-                                        <div class="product-thumb">
-                                            <a href="product-details.html">
-                                                <img src="assets/img/product/product-1.jpg" alt="">
-                                            </a>
-                                            <div class="quick-view-link">
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                    <span data-bs-toggle="tooltip" title="Quick view"><i
-                                                            class="ion-ios-eye-outline"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="product-description">
-                                            <div class="tag-cate">
-                                                <a href="product-details.html">fruits</a>
-                                            </div>
-                                            <div class="product-name">
-                                                <h4 class="h5">
-                                                    <a href="product-details.html">Condimentum food</a>
-                                                </h4>
-                                            </div>
-                                            <div class="price-box">
-                                                <span class="regular-price">$160.00</span>
-                                                <span class="old-price"><del>$180.00</del></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="single-item mb-30">
-                                        <div class="product-thumb">
-                                            <a href="product-details.html">
-                                                <img src="assets/img/product/product-2.jpg" alt="">
-                                            </a>
-                                            <div class="quick-view-link">
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                    <span data-bs-toggle="tooltip" title="Quick view"><i
-                                                            class="ion-ios-eye-outline"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="product-description">
-                                            <div class="tag-cate">
-                                                <a href="product-details.html">fruits</a>
-                                            </div>
-                                            <div class="product-name">
-                                                <h4 class="h5">
-                                                    <a href="product-details.html">Tincidunt malesuada</a>
-                                                </h4>
-                                            </div>
-                                            <div class="price-box">
-                                                <span class="regular-price">$130.00</span>
-                                                <span class="old-price"><del>$140.00</del></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="single-item mb-30">
-                                        <div class="product-thumb">
-                                            <a href="product-details.html">
-                                                <img src="assets/img/product/product-3.jpg" alt="">
-                                            </a>
-                                            <div class="quick-view-link">
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view">
-                                                    <span data-bs-toggle="tooltip" title="Quick view"><i
-                                                            class="ion-ios-eye-outline"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="product-description">
-                                            <div class="tag-cate">
-                                                <a href="product-details.html">fruits</a>
-                                            </div>
-                                            <div class="product-name">
-                                                <h4 class="h5">
-                                                    <a href="product-details.html">100% organic food</a>
-                                                </h4>
-                                            </div>
-                                            <div class="price-box">
-                                                <span class="regular-price">$99.00</span>
-                                                <span class="old-price"><del></del></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="brand-active slick-padding justify-content-center">
+                        <div class="brand-item text-center">
+                            <p>Albha</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C5 Extra Special</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C5</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C4</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C3</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>H1</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>H2</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>H3</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>M4</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>M5 Special</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>M5</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- best sellers area end -->
+        </div>
+        <!-- brand area end -->
 
         <!-- banner statistic area start -->
         <section class="bg-gray py-5">
@@ -723,110 +720,6 @@
             </div>
         </section>
         <!-- banner statistic area end -->
-
-        <!-- brand area start -->
-        <div class="brand-area">
-            <div class="container">
-                <div class="brand-inner bdr-top pt-30 pb-30">
-                    <div class="footer-widget-title text-center">
-                        <h4>SRS Exports Holdings</h4>
-                    </div>
-                    <div class="brand-active slick-padding justify-content-center">
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr1.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr2.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr3.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr4.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr5.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr6.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr7.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr8.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr9.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr10.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr11.png" alt="brand image">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="brand-active slick-padding justify-content-center">
-                        <div class="brand-item text-center">
-                            <p>Albha</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>C5 Extra Special</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>C5</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>C4</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>C3</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>H1</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>H2</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>H3</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>M4</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>M5 Special</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>M5</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- brand area end -->
 
     </main>
 @endsection
