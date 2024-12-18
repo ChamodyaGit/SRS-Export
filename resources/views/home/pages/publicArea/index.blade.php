@@ -724,122 +724,103 @@
         </section>
         <!-- banner statistic area end -->
 
-        <!-- latest news area start -->
-        {{-- <section class="latest-news-area latest-news-area__style1 fix pt-60 pb-60 pt-sm-30">
-            <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div class="col-12">
-                        <div class="section-title text-center">
-                            <h2>from the blogs</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col-12">
-                        <div class="blog-slider slick-padding">
-                            <div class="blog-item">
-                                <div class="single-blog-item bg-gray">
-                                    <div class="blog-img-container">
-                                        <a href="blog-details.html" class="blog-img-holder blog-img-holder__1"></a>
-                                    </div>
-                                    <div class="post-info">
-                                        <div class="post-date">
-                                            <i class="ion-ios-calendar-outline"></i>
-                                            <span>01 Jan 2023</span>
-                                        </div>
-                                        <h5 class="post-title"><a href="blog-details.html">post with audio format</a>
-                                        </h5>
-                                        <p>Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo
-                                            ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus
-                                            fermentum eleifend</p>
-                                        <a href="blog-details.html" class="read-more">read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-item">
-                                <div class="single-blog-item bg-gray">
-                                    <div class="blog-img-container">
-                                        <a href="blog-details.html" class="blog-img-holder blog-img-holder__2"></a>
-                                    </div>
-                                    <div class="post-info">
-                                        <div class="post-date">
-                                            <i class="ion-ios-calendar-outline"></i>
-                                            <span>01 Jan 2023</span>
-                                        </div>
-                                        <h5 class="post-title"><a href="blog-details.html">post with audio format</a>
-                                        </h5>
-                                        <p>Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo
-                                            ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus
-                                            fermentum eleifend</p>
-                                        <a href="blog-details.html" class="read-more">read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-item">
-                                <div class="single-blog-item bg-gray">
-                                    <div class="blog-img-container">
-                                        <a href="blog-details.html" class="blog-img-holder blog-img-holder__3"></a>
-                                    </div>
-                                    <div class="post-info">
-                                        <div class="post-date">
-                                            <i class="ion-ios-calendar-outline"></i>
-                                            <span>01 Jan 2023</span>
-                                        </div>
-                                        <h5 class="post-title"><a href="blog-details.html">post with audio format</a>
-                                        </h5>
-                                        <p>Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo
-                                            ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus
-                                            fermentum eleifend</p>
-                                        <a href="blog-details.html" class="read-more">read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-        <!-- latest news area end -->
-
         <!-- brand area start -->
         <div class="brand-area">
             <div class="container">
                 <div class="brand-inner bdr-top pt-30 pb-30">
-                    <div class="brand-active slick-padding">
+                    <div class="footer-widget-title text-center">
+                        <h4>SRS Exports Holdings</h4>
+                    </div>
+                    <div class="brand-active slick-padding justify-content-center">
                         <div class="brand-item">
                             <a href="#">
-                                <img src="assets/img/brand/br1.png" alt="brand image">
+                                <img src="assets/img/brand/cbr1.png" alt="brand image">
                             </a>
                         </div>
                         <div class="brand-item">
                             <a href="#">
-                                <img src="assets/img/brand/br2.png" alt="brand image">
+                                <img src="assets/img/brand/cbr2.png" alt="brand image">
                             </a>
                         </div>
                         <div class="brand-item">
                             <a href="#">
-                                <img src="assets/img/brand/br3.png" alt="brand image">
+                                <img src="assets/img/brand/cbr3.png" alt="brand image">
                             </a>
                         </div>
                         <div class="brand-item">
                             <a href="#">
-                                <img src="assets/img/brand/br4.png" alt="brand image">
+                                <img src="assets/img/brand/cbr4.png" alt="brand image">
                             </a>
                         </div>
                         <div class="brand-item">
                             <a href="#">
-                                <img src="assets/img/brand/br5.png" alt="brand image">
+                                <img src="assets/img/brand/cbr5.png" alt="brand image">
                             </a>
                         </div>
                         <div class="brand-item">
                             <a href="#">
-                                <img src="assets/img/brand/br6.png" alt="brand image">
+                                <img src="assets/img/brand/cbr6.png" alt="brand image">
                             </a>
                         </div>
                         <div class="brand-item">
                             <a href="#">
-                                <img src="assets/img/brand/br3.png" alt="brand image">
+                                <img src="assets/img/brand/cbr7.png" alt="brand image">
                             </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr8.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr9.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr10.png" alt="brand image">
+                            </a>
+                        </div>
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr11.png" alt="brand image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="brand-active slick-padding justify-content-center">
+                        <div class="brand-item text-center">
+                            <p>Albha</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C5 Extra Special</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C5</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C4</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C3</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>H1</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>H2</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>H3</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>M4</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>M5 Special</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>M5</p>
                         </div>
                     </div>
                 </div>
