@@ -5,6 +5,49 @@
         <div class="container">
             <div class="footer-main-inner bdr-top pt-56 pb-60 pb-md-20 pb-sm-20">
                 <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget">
+                            <div class="footer-widget-title">
+                                <h4>SRS Exports Holdings</h4>
+                            </div>
+                            <div class="footer-widget-body">
+                                <div class="newsletter-desc">
+                                    <p>SRS Exports Holdings specializes in exporting high quality Ceylon cinnamon
+                                        products in the Southern Province of Sri Lanka established in 2023.</p>
+                                    <a id="mc-form" href="{{ route('contact') }}">
+                                        <button id="mc-submit"><i class="ion-headphone"></i>Contact</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-widget">
+                            <div class="footer-widget-title">
+                                <h4>Links</h4>
+                            </div>
+                            <div class="footer-widget-body">
+                                <ul class="location-wrap">
+                                    <li>
+                                        <a href="{{ route('home') }}" class="contact-txt-color"><i
+                                                class="bi bi-chevron-right"></i> Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('home') }}" class="contact-txt-color"><i
+                                                class="bi bi-chevron-right"></i> Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('about') }}" class="contact-txt-color"><i
+                                                class="bi bi-chevron-right"></i> About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('contact') }}" class="contact-txt-color"><i
+                                                class="bi bi-chevron-right"></i> Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <div class="footer-widget-title">
@@ -13,18 +56,15 @@
                             <div class="footer-widget-body">
                                 <ul class="location-wrap">
                                     <li>
-                                        <h6 class="title">location:</h6>
-                                        <p>91/1, Dalukgalpotta, Olaganduwa, Induruwa</p>
-                                    </li>
-                                    <li>
                                         <h6 class="title">call us now:</h6>
-                                        <p>0123456789<br>0123456789</p>
+                                        <p><a href="tel:+94710215712" class="contact-txt-color"><i
+                                                    class="fa fa-phone"></i> +94 71 021 5712</a></p>
                                     </li>
                                     <li>
                                         <h6 class="title">email:</h6>
                                         <p>
-                                            <a href="mailto:sampathwkd@gmail.com">sampathwkd@gmail.com</a><br>
-                                            {{-- <a href="#">demo@example.com</a> --}}
+                                            <a href="mailto:sampathwkd@gmail.com" class="contact-txt-color"><i
+                                                    class="fa fa-envelope-o"></i> sampathwkd@gmail.com</a>
                                         </p>
                                     </li>
                                 </ul>
@@ -34,167 +74,15 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <div class="footer-widget-title">
-                                <h4>new arrivals</h4>
+                                <h4>Location</h4>
                             </div>
                             <div class="footer-widget-body">
-                                <ul class="category-list">
-                                    <li>
-                                        <div class="single-item single-item__footer-category">
-                                            <div class="product-thumb">
-                                                <a href="product-details.html">
-                                                    <img src="assets/img/product/product-2.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="product-description">
-                                                <div class="product-name">
-                                                    <h4 class="h5">
-                                                        <a href="product-details.html">natural fresh berries</a>
-                                                    </h4>
-                                                </div>
-                                                <div class="price-box">
-                                                    <span class="regular-price">$99.00</span>
-                                                    <span class="old-price"><del></del></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="single-item single-item__footer-category">
-                                            <div class="product-thumb">
-                                                <a href="product-details.html">
-                                                    <img src="assets/img/product/product-3.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="product-description">
-                                                <div class="product-name">
-                                                    <h4 class="h5">
-                                                        <a href="product-details.html">organic fresh juice</a>
-                                                    </h4>
-                                                </div>
-                                                <div class="price-box">
-                                                    <span class="regular-price">$99.00</span>
-                                                    <span class="old-price"><del></del></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="single-item single-item__footer-category">
-                                            <div class="product-thumb">
-                                                <a href="product-details.html">
-                                                    <img src="assets/img/product/product-4.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="product-description">
-                                                <div class="product-name">
-                                                    <h4 class="h5">
-                                                        <a href="product-details.html">100% organic food</a>
-                                                    </h4>
-                                                </div>
-                                                <div class="price-box">
-                                                    <span class="regular-price">$99.00</span>
-                                                    <span class="old-price"><del></del></span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <ul class="location-wrap">
+                                    <li class="d-flex">
+                                        <i class="bi bi-geo-alt-fill mr-2"></i>
+                                        <p>Induruwa, Southern Province, Sri Lanka.</p>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <div class="footer-widget-title">
-                                <h4>top rated product</h4>
-                            </div>
-                            <div class="footer-widget-body">
-                                <ul class="category-list">
-                                    <li>
-                                        <div class="single-item single-item__footer-category">
-                                            <div class="product-thumb">
-                                                <a href="product-details.html">
-                                                    <img src="assets/img/product/product-12.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="product-description">
-                                                <div class="product-name">
-                                                    <h4 class="h5">
-                                                        <a href="product-details.html">natural fresh berries</a>
-                                                    </h4>
-                                                </div>
-                                                <div class="price-box">
-                                                    <span class="regular-price">$99.00</span>
-                                                    <span class="old-price"><del></del></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="single-item single-item__footer-category">
-                                            <div class="product-thumb">
-                                                <a href="product-details.html">
-                                                    <img src="assets/img/product/product-13.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="product-description">
-                                                <div class="product-name">
-                                                    <h4 class="h5">
-                                                        <a href="product-details.html">organic fresh juice</a>
-                                                    </h4>
-                                                </div>
-                                                <div class="price-box">
-                                                    <span class="regular-price">$99.00</span>
-                                                    <span class="old-price"><del></del></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="single-item single-item__footer-category">
-                                            <div class="product-thumb">
-                                                <a href="product-details.html">
-                                                    <img src="assets/img/product/product-14.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="product-description">
-                                                <div class="product-name">
-                                                    <h4 class="h5">
-                                                        <a href="product-details.html">100% organic food</a>
-                                                    </h4>
-                                                </div>
-                                                <div class="price-box">
-                                                    <span class="regular-price">$99.00</span>
-                                                    <span class="old-price"><del></del></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <div class="footer-widget-title">
-                                <h4>newsletter</h4>
-                            </div>
-                            <div class="footer-widget-body">
-                                <div class="newsletter-desc">
-                                    <p>Subscribe to the Kavir mailing list to receive updates on new arrivals,
-                                        special offers and other discount information.</p>
-                                    <a id="mc-form" href="{{ route('contact') }}">
-                                        <input type="email" id="mc-email" autocomplete="off"
-                                            placeholder="Your email address">
-                                        <button id="mc-submit"><i class="ion-headphone"></i>Contact</button>
-                                    </a>
-                                    <!-- mailchimp-alerts Start -->
-                                    <div class="mailchimp-alerts">
-                                        <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                                        <div class="mailchimp-success"></div><!-- mailchimp-success end -->
-                                        <div class="mailchimp-error"></div><!-- mailchimp-error end -->
-                                    </div>
-                                    <!-- mailchimp-alerts end -->
-                                </div>
                             </div>
                         </div>
                     </div>
