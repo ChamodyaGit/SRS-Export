@@ -5,9 +5,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-3">
                     <div class="logo d-block d-lg-none">
-                        <a href="index.html">
+                        {{-- <a href="index.html">
                             <img src="assets/img/logo/srs-logo.png" height="50" alt="Brand Logo">
-                        </a>
+                        </a> --}}
+                        <h1 class="logo-styles">SRS</h1><span class="logo-styles">Exports Holdings</span>
                     </div>
                 </div>
             </div>
@@ -22,14 +23,16 @@
                 <div class="col-12">
                     <div class="main-menu d-flex justify-content-between">
                         <div class="logo d-none d-lg-block">
-                            <a href="{{ route('home') }}">
+                            {{-- <a href="{{ route('home') }}">
                                 <img src="assets/img/logo/srs-logo.png" height="50" alt="brand logo">
-                            </a>
+                            </a> --}}
+                            <h1 class="logo-styles">SRS Exports Holdings</h1>
                         </div>
                         <div class="sticky-logo d-lg-none">
-                            <a href="{{ route('home') }}">
+                            {{-- <a href="{{ route('home') }}">
                                 <img src="assets/img/logo/srs-logo.png" height="50" alt="brand logo">
-                            </a>
+                            </a> --}}
+                            <h1 class="logo-styles">SRS</h1><span class="logo-styles">Exports Holdings</span>
                         </div>
                         <!-- main menu navbar start -->
                         <nav id="mobile-menu">

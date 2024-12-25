@@ -54,17 +54,10 @@
         <!-- about wrapper end -->
 
         <!-- team area start -->
-        {{-- <div class="team-area bg-gray pt-60 pb-20">
+        <div class="team-area bg-gray pt-60 pb-20">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="section-title text-center">
-                            <h2>our creative team</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="team-member mb-30">
                             <div class="team-thumb img-full">
                                 <img src="assets/img/team/team_member_1.jpg" alt="">
@@ -76,15 +69,13 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h3>Jonathan Scott</h3>
-                                <h6>CEO</h6>
-                                <p>Amadea Shop is a very slick and clean e-commerce template with endless
-                                    possibilities.</p>
+                                <h3>H.W.K.D.Sampath Kumara</h3>
+                                <h6>Founder & CEO</h6>
                             </div>
                         </div>
                     </div> <!-- end single team member -->
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="team-member mb-30">
+                    <div class="col-lg-9 col-md-6 col-sm-12">
+                        {{-- <div class="team-member mb-30">
                             <div class="team-thumb img-full">
                                 <img src="assets/img/team/team_member_2.jpg" alt="">
                                 <div class="team-social">
@@ -100,53 +91,34 @@
                                 <p>Amadea Shop is a very slick and clean e-commerce template with endless
                                     possibilities.</p>
                             </div>
-                        </div>
-                    </div> <!-- end single team member -->
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="team-member mb-30">
-                            <div class="team-thumb img-full">
-                                <img src="assets/img/team/team_member_3.jpg" alt="">
-                                <div class="team-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                        </div> --}}
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="section-title text-center">
+                                    <h2>About Our CEO</h2>
                                 </div>
                             </div>
-                            <div class="team-content text-center">
-                                <h3>erik jonson</h3>
-                                <h6>developer</h6>
-                                <p>Amadea Shop is a very slick and clean e-commerce template with endless
-                                    possibilities.</p>
+                            <div class="col-12">
+                                <p>H.W.K.D. Sampath Kumara is the visionary founder and CEO of our company, which began as a
+                                    home-based business in 2023 and has swiftly grown into a leading exporter in just one
+                                    year. With over a decade of experience in the Cinnamon industry, Sampath’s deep
+                                    understanding of Sri Lanka’s renowned cinnamon, known as the “King of Spices,” has been
+                                    a key driver behind the company’s rapid success.</p><br />
+                                <p>Driven by his enthusiasm for Sri Lankan cinnamon, Sampath is committed to ensuring the
+                                    company becomes the number one exporter of this premium spice worldwide. His dedication
+                                    to quality, sustainability, and innovation fuels the company’s growth, ensuring that Sri
+                                    Lanka’s finest cinnamon reaches global markets while preserving the island’s legacy in
+                                    spice production.</p>
                             </div>
                         </div>
-                    </div> <!-- end single team member -->
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="team-member mb-30">
-                            <div class="team-thumb img-full">
-                                <img src="assets/img/team/team_member_4.jpg" alt="">
-                                <div class="team-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-content text-center">
-                                <h3>maria mandy</h3>
-                                <h6>marketing officer</h6>
-                                <p>Amadea Shop is a very slick and clean e-commerce template with endless
-                                    possibilities.</p>
-                            </div>
-                        </div>
-                    </div> <!-- end single team member -->
+                    </div>
                 </div>
             </div>
-        </div> --}}
+        </div>
         <!-- team area end -->
 
         <!-- testimonial area start -->
-        <div class="testimonial-area pt-60 pb-88">
+        {{-- <div class="testimonial-area pt-60 pb-88">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -195,7 +167,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- testimonial area end -->
 
         <!-- choosing area start -->
@@ -229,7 +201,8 @@
                         <div class="single-choose-item text-center mb-md-30 mb-sm-30">
                             <i class="fa fa-comments"></i>
                             <h4>customers support</h4>
-                            <p>Amadea Shop is a very slick and clean e-commerce template with endless possibilities.</p>
+                            <p>Dedicated to quality and sustainability, ensuring top-notch customer support while delivering
+                                premium cinnamon worldwide.</p>
                         </div>
                     </div>
                 </div>

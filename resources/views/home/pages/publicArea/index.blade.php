@@ -93,7 +93,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    {{-- <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color1 text-center">
                                 <div class="category-content">
@@ -106,7 +106,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- end single item -->
+                    </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color2 text-center">
@@ -120,7 +120,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- end single item -->
+                    </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color3 text-center">
@@ -134,7 +134,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- end single item -->
+                    </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="category-single-item mb-md-30 mb-sm-30">
                             <div class="category-item-inner color4 text-center">
@@ -148,7 +148,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- end single item -->
+                    </div> --}}
                 </div>
             </div>
         </section>
@@ -260,6 +260,273 @@
             </div>
         </section>
         <!-- product tab area end -->
+
+        <!-- brand area start -->
+        <div class="bg-gray brand-area">
+            <div class="container">
+                <div class="brand-inner pt-30 pb-30 mb-md-4">
+                    {{-- <div class="footer-widget-title text-center">
+                        <h4>SRS Exports Holdings</h4>
+                    </div> --}}
+                    <div class="section-title text-center mt-md-3">
+                        <h2>Categories</h2>
+                    </div>
+                    <div class="brand-active slick-padding justify-content-center">
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr1.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">Albha</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr2.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">C5 Extra Special</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr3.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">C5</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr4.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">C4</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr5.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">C3</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr6.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">H1</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr7.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">H2</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr8.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">H3</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr9.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">M4</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr10.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">M5 Special</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <a href="#">
+                                <img src="assets/img/brand/cbr11.png" alt="brand image">
+                            </a>
+                            <p class="d-block d-md-none">M5</p>
+                        </div>
+                    </div>
+                    <div class="brand-active slick-padding justify-content-center d-none d-md-block">
+                        <div class="brand-item text-center">
+                            <p>Albha</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C5 Extra Special</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C5</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C4</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>C3</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>H1</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>H2</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>H3</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>M4</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>M5 Special</p>
+                        </div>
+                        <div class="brand-item text-center">
+                            <p>M5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- brand area end -->
+
+        <!-- banner statistic area start -->
+        <section class="py-5">
+            <div class="banner-statistics">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-title text-center">
+                                <h2>Cinnamon Grades</h2>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <!-- Cart Table Area -->
+                            <div class="cart-table table-responsive">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th width="20%">Grade</th>
+                                            <th width="20%">Diameter of cinnamon sticks<br />(Maximum)<br />(mm)
+                                            </th>
+                                            <th width="20%">Number of 42 inch long cinnamon sticks in 1 kg</th>
+                                            <th width="20%">Gross size (maximum) as a percentage of freckles</th>
+                                            <th width="20%">Width of bark to be taken in making cinnamon<br />(mm)
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <td><span>Alba</span></td>
+                                            <td><span>6</span></td>
+                                            <td><span>45</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>22</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-topic">Continental</span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C5 (Very special)</span></td>
+                                            <td><span>8</span></td>
+                                            <td><span>33</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>29</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C5 (Special)</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>30</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>35</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C5</span></td>
+                                            <td><span>12</span></td>
+                                            <td><span>27</span></td>
+                                            <td><span>15</span></td>
+                                            <td><span>42</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C4</span></td>
+                                            <td><span>16</span></td>
+                                            <td><span>22</span></td>
+                                            <td><span>15</span></td>
+                                            <td><span>54</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>C3</span></td>
+                                            <td><span>18</span></td>
+                                            <td><span>20</span></td>
+                                            <td><span>20</span></td>
+                                            <td><span>61</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-topic">Mexican</span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>M5 (Special)</span></td>
+                                            <td><span>16</span></td>
+                                            <td><span>22</span></td>
+                                            <td><span>60</span></td>
+                                            <td><span>54</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>M5</span></td>
+                                            <td><span>18</span></td>
+                                            <td><span>20</span></td>
+                                            <td><span>60</span></td>
+                                            <td><span>60</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>M4</span></td>
+                                            <td><span>21</span></td>
+                                            <td><span>15</span></td>
+                                            <td><span>60</span></td>
+                                            <td><span>70</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-topic">Hamburg</span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                            <td class="bg-topic"><span></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>H1</span></td>
+                                            <td><span>23</span></td>
+                                            <td><span>10</span></td>
+                                            <td><span>25</span></td>
+                                            <td><span>76</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>H2 (Special)</span></td>
+                                            <td><span>25</span></td>
+                                            <td><span>09</span></td>
+                                            <td><span>40</span></td>
+                                            <td><span>83</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>H2</span></td>
+                                            <td><span>32</span></td>
+                                            <td><span>07</span></td>
+                                            <td><span>55</span></td>
+                                            <td><span>105</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>H3</span></td>
+                                            <td><span>38</span></td>
+                                            <td><span>06</span></td>
+                                            <td><span>65</span></td>
+                                            <td><span>123</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner statistic area end -->
 
         <!-- choose us and testimonial area start -->
         <section class="bg-gray pt-60 pb-60 mt-md-5">
@@ -464,262 +731,6 @@
             </div>
         </section>
         <!-- choose us and testimonial area start -->
-
-        <!-- brand area start -->
-        <div class="brand-area">
-            <div class="container">
-                <div class="brand-inner pt-30 pb-30 mb-md-4">
-                    {{-- <div class="footer-widget-title text-center">
-                        <h4>SRS Exports Holdings</h4>
-                    </div> --}}
-                    <div class="section-title text-center mt-md-3">
-                        <h2>Categories</h2>
-                    </div>
-                    <div class="brand-active slick-padding justify-content-center">
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr1.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr2.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr3.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr4.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr5.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr6.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr7.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr8.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr9.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr10.png" alt="brand image">
-                            </a>
-                        </div>
-                        <div class="brand-item">
-                            <a href="#">
-                                <img src="assets/img/brand/cbr11.png" alt="brand image">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="brand-active slick-padding justify-content-center">
-                        <div class="brand-item text-center">
-                            <p>Albha</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>C5 Extra Special</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>C5</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>C4</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>C3</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>H1</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>H2</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>H3</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>M4</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>M5 Special</p>
-                        </div>
-                        <div class="brand-item text-center">
-                            <p>M5</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- brand area end -->
-
-        <!-- banner statistic area start -->
-        <section class="bg-gray py-5">
-            <div class="banner-statistics">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="section-title text-center">
-                                <h2>Cinnamon Grades</h2>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <!-- Cart Table Area -->
-                            <div class="cart-table table-responsive">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th width="20%">Grade</th>
-                                            <th width="20%">Diameter of cinnamon sticks<br />(Maximum)<br />(mm)
-                                            </th>
-                                            <th width="20%">Number of 42 inch long cinnamon sticks in 1 kg</th>
-                                            <th width="20%">Gross size (maximum) as a percentage of freckles</th>
-                                            <th width="20%">Width of bark to be taken in making cinnamon<br />(mm)
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-
-                                        <tr>
-                                            <td><span>Alba</span></td>
-                                            <td><span>6</span></td>
-                                            <td><span>45</span></td>
-                                            <td><span>10</span></td>
-                                            <td><span>22</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bg-topic">Continental</span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>C5 (Very special)</span></td>
-                                            <td><span>8</span></td>
-                                            <td><span>33</span></td>
-                                            <td><span>10</span></td>
-                                            <td><span>29</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>C5 (Special)</span></td>
-                                            <td><span>10</span></td>
-                                            <td><span>30</span></td>
-                                            <td><span>10</span></td>
-                                            <td><span>35</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>C5</span></td>
-                                            <td><span>12</span></td>
-                                            <td><span>27</span></td>
-                                            <td><span>15</span></td>
-                                            <td><span>42</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>C4</span></td>
-                                            <td><span>16</span></td>
-                                            <td><span>22</span></td>
-                                            <td><span>15</span></td>
-                                            <td><span>54</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>C3</span></td>
-                                            <td><span>18</span></td>
-                                            <td><span>20</span></td>
-                                            <td><span>20</span></td>
-                                            <td><span>61</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bg-topic">Mexican</span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>M5 (Special)</span></td>
-                                            <td><span>16</span></td>
-                                            <td><span>22</span></td>
-                                            <td><span>60</span></td>
-                                            <td><span>54</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>M5</span></td>
-                                            <td><span>18</span></td>
-                                            <td><span>20</span></td>
-                                            <td><span>60</span></td>
-                                            <td><span>60</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>M4</span></td>
-                                            <td><span>21</span></td>
-                                            <td><span>15</span></td>
-                                            <td><span>60</span></td>
-                                            <td><span>70</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bg-topic">Hamburg</span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                            <td class="bg-topic"><span></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>H1</span></td>
-                                            <td><span>23</span></td>
-                                            <td><span>10</span></td>
-                                            <td><span>25</span></td>
-                                            <td><span>76</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>H2 (Special)</span></td>
-                                            <td><span>25</span></td>
-                                            <td><span>09</span></td>
-                                            <td><span>40</span></td>
-                                            <td><span>83</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>H2</span></td>
-                                            <td><span>32</span></td>
-                                            <td><span>07</span></td>
-                                            <td><span>55</span></td>
-                                            <td><span>105</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>H3</span></td>
-                                            <td><span>38</span></td>
-                                            <td><span>06</span></td>
-                                            <td><span>65</span></td>
-                                            <td><span>123</span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- banner statistic area end -->
 
     </main>
 @endsection
