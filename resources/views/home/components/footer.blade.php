@@ -12,8 +12,8 @@
                             </div>
                             <div class="footer-widget-body">
                                 <div class="newsletter-desc">
-                                    <p>SRS Exports Holdings specializes in exporting high quality Ceylon cinnamon
-                                        products in the Southern Province of Sri Lanka established in 2023.</p>
+                                    <p>To deliver the finest quality Ceylon cinnamon to global markets while promoting
+                                        sustainable and ethical farming practices.</p>
                                     <a id="mc-form" href="{{ route('contact') }}">
                                         <button id="mc-submit"><i class="ion-headphone"></i>Contact</button>
                                     </a>
@@ -33,8 +33,8 @@
                                                 class="bi bi-chevron-right"></i> Home</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('home') }}" class="contact-txt-color"><i
-                                                class="bi bi-chevron-right"></i> Blog</a>
+                                        <a href="{{ route('gallery') }}" class="contact-txt-color"><i
+                                                class="bi bi-chevron-right"></i> Gallery</a>
                                     </li>
                                     <li>
                                         <a href="{{ route('about') }}" class="contact-txt-color"><i

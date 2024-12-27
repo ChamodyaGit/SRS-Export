@@ -1,7 +1,7 @@
 (function ($) {
 	"use strict";
 
-	// Sticky menu 
+	// Sticky menu
 	var $window = $(window);
 	$window.on('scroll', function () {
 		var scroll = $window.scrollTop();

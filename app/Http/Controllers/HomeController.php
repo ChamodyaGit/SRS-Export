@@ -13,6 +13,11 @@ class HomeController extends Controller
         return view('home.pages.publicArea.index');
     }
 
+    public function gallery()
+    {
+        return view('home.pages.publicArea.gallery');
+    }
+
     public function aboutUs()
     {
         return view('home.pages.publicArea.about');

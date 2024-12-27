@@ -270,6 +270,7 @@
                     </div> --}}
                     <div class="section-title text-center mt-md-3">
                         <h2>Categories</h2>
+                        <p class="pt-md-3">We are producing the below mentioned all categories of pure Ceylon Cinnamon in a hygienic condition.</p>
                     </div>
                     <div class="brand-active slick-padding justify-content-center">
                         <div class="brand-item text-center">

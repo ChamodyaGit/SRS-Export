@@ -39,7 +39,8 @@
                             <ul>
                                 <li class="{{ in_array(Route::currentRouteName(), ['home']) ? 'active' : '' }}"><a
                                         href="{{ route('home') }}">Home</a></li>
-                                <li><a href="#">Blog</a></li>
+                                <li class="{{ in_array(Route::currentRouteName(), ['gallery']) ? 'active' : '' }}"><a
+                                        href="{{ route('gallery') }}">Gallery</a></li>
                                 <li class="{{ in_array(Route::currentRouteName(), ['about']) ? 'active' : '' }}"><a
                                         href="{{ route('about') }}">About Us</a></li>
                                 <li class="{{ in_array(Route::currentRouteName(), ['contact']) ? 'active' : '' }}"><a
@@ -49,7 +50,7 @@
                         <!-- main menu navbar end -->
                     </div>
                 </div>
-                <div class="col-12 d-block d-lg-none">
+                <div class="col-12 d-block d-lg-none px-0">
                     <div class="mobile-menu"></div>
                 </div>
             </div>
