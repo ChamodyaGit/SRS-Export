@@ -60,7 +60,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="team-member mb-30">
                             <div class="team-thumb img-full">
-                                <img src="assets/img/team/team_member_1.jpg" alt="">
+                                <img src="assets/img/team/ceo_img.png" alt="">
                                 <div class="team-social">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
