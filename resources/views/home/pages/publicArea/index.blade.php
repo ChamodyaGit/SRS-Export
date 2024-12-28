@@ -65,7 +65,7 @@
                         </div>
                         <div class="features-content">
                             <h5>Customers Support</h5>
-                            <p>Dedicated to quality and sustainability</p>
+                            <p>Quality and sustainability first</p>
                         </div>
                     </div>
                     <div class="single-features-item">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row service-features-inner theme-color d-block d-md-none">
+                <div class="service-features-inner theme-color d-block d-md-none">
                     <div class="col-12 single-features-item">
                         <div class="features-icon" style="width: 60px;">
                             <i class="ion-paper-airplane"></i>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="features-content">
                             <h5>Customers Support</h5>
-                            <p>Dedicated to quality and sustainability</p>
+                            <p>Quality and sustainability first</p>
                         </div>
                     </div>
                     <div class="col-12 single-features-item">
