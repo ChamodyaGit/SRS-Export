@@ -33,10 +33,10 @@
                                 @csrf
                                 <div class="row">
                                     <div class="col-12">
-                                        <input name="first_name" placeholder="Name *" type="text" required>
+                                        <input name="name" placeholder="Name *" type="text" required>
                                     </div>
                                     <div class="col-12">
-                                        <input name="email_address" placeholder="Email *" type="text" required>
+                                        <input name="email" placeholder="Email *" type="text" required>
                                     </div>
                                     <div class="col-12">
                                         <div class="contact2-textarea text-center">
@@ -61,8 +61,10 @@
                                 other spices and also pure coconut oil are the other products we‘re producing.</p>
                             <ul>
                                 <li><i class="fa fa-fax"></i> Address : 91/1, Dalukgalpotta, Olaganduwa, Induruwa</li>
-                                <li><a href="tel:+94710215712" class="contact-txt-color"><i class="fa fa-phone"></i> +94 71 021 5712</a></li>
-                                <li><a href="mailto:sampathwkd@gmail.com" class="contact-txt-color"><i class="fa fa-envelope-o"></i> sampathwkd@gmail.com</a></li>
+                                <li><a href="tel:+94710215712" class="contact-txt-color"><i class="fa fa-phone"></i> +94 71
+                                        021 5712</a></li>
+                                <li><a href="mailto:sampathwkd@gmail.com" class="contact-txt-color"><i
+                                            class="fa fa-envelope-o"></i> sampathwkd@gmail.com</a></li>
                                 <li>
                                     <a href="#" class="social-icon-colors fs-4 me-2"><i
                                             class="fa fa-facebook"></i></a>
@@ -93,7 +95,7 @@
             </div> --}}
             <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
                     marginwidth="0"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Weheragala%20Kanda,%20Temple%20Road,%20Pothuwila,%20Payagala+(SRS%20Exports%20Holdings)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%E2%80%9DSanda%E2%80%9D,%201/91,%20Dalukgalpotta,%20Olaganduwa,%20Induruwa,%20Galle,%20Sri%20Lanka.+(SRS%20Exports%20Holdings)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
                         href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
         </div>
         <!-- map area end -->

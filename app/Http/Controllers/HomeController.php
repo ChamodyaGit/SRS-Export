@@ -41,28 +41,24 @@ class HomeController extends Controller
     public function sendMail(Request $request)
     {
         $request->validate([
-            'first_name' => 'required',
-            'phone' => 'required',
-            'email_address' => 'required|email',
-            'contact_subject' => 'required',
+            'name' => 'required',
+            'email' => 'required|email',
             'message' => 'required',
         ]);
 
         try {
             $mailData = [
-                'name' => $request->first_name,
-                'phone' => $request->phone,
-                'email' => $request->email_address,
-                'subject' => $request->contact_subject,
+                'name' => $request->name,
+                'email' => $request->email,
                 'message' => $request->message,
             ];
             // dd($mailData);
 
             Mail::to('chamodya152@gmail.com')->send(new ContactMessage($mailData));
 
-            return "Email sent successfully";
+            return response()->json(['message' => 'Email sent successfully!']);
         } catch (\Exception $e) {
-            return response()->json(['message' => 'Error sending email'], 500);
+            return response()->json(['error' => $e->getMessage()], 500);
         }
     }
 }

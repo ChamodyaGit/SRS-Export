@@ -49,7 +49,7 @@
         <!-- service features start -->
         <section class="service-features pt-30">
             <div class="container">
-                <div class="service-features-inner theme-color">
+                <div class="service-features-inner theme-color d-none d-md-flex">
                     <div class="single-features-item">
                         <div class="features-icon">
                             <i class="ion-paper-airplane"></i>
@@ -61,15 +61,44 @@
                     </div>
                     <div class="single-features-item">
                         <div class="features-icon">
-                            <i class="ion-social-usd"></i>
+                            <i class="ion-chatbubbles"></i>
                         </div>
                         <div class="features-content">
-                            <h5>Free Shipping</h5>
-                            <p>Free delivery on all orders over $99</p>
+                            <h5>Customers Support</h5>
+                            <p>Dedicated to quality and sustainability</p>
                         </div>
                     </div>
                     <div class="single-features-item">
                         <div class="features-icon">
+                            <i class="bi bi-stars"></i>
+                        </div>
+                        <div class="features-content">
+                            <h5>High Quality</h5>
+                            <p>GMP certified, Fair Trade practices</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row service-features-inner theme-color d-block d-md-none">
+                    <div class="col-12 single-features-item">
+                        <div class="features-icon" style="width: 60px;">
+                            <i class="ion-paper-airplane"></i>
+                        </div>
+                        <div class="features-content">
+                            <h5>Worldwide Distribution</h5>
+                            <p>Global delivery to any destination</p>
+                        </div>
+                    </div>
+                    <div class="col-12 single-features-item">
+                        <div class="features-icon" style="width: 60px;">
+                            <i class="ion-chatbubbles"></i>
+                        </div>
+                        <div class="features-content">
+                            <h5>Customers Support</h5>
+                            <p>Dedicated to quality and sustainability</p>
+                        </div>
+                    </div>
+                    <div class="col-12 single-features-item">
+                        <div class="features-icon" style="width: 60px;">
                             <i class="bi bi-stars"></i>
                         </div>
                         <div class="features-content">

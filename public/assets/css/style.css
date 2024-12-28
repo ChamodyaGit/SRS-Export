@@ -604,13 +604,14 @@ table tbody {
 
 /*----------- header settinngs area start -----------*/
 .header-top {
-    padding: 20px 0;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
     .logo {
-        max-width: 130px;
+        max-width: 250px;
         margin: 0 auto;
     }
 }
@@ -1262,14 +1263,14 @@ only screen and (max-width: 767.98px) {
 }
 
 .sticky.is-sticky .main-menu .sticky-logo {
-    display: block;
+    display: flex;
     z-index: 11;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
     .sticky.is-sticky .main-menu .sticky-logo {
-        max-width: 120px;
+        max-width: 200px;
     }
 }
 
@@ -2284,7 +2285,7 @@ only screen and (max-width: 767.98px) {
     .single-features-item {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center;
+        /* justify-content: center; */
         padding-right: 0;
         margin-bottom: 30px;
     }
