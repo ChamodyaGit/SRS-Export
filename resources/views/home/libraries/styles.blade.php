@@ -1,4 +1,4 @@
-<link rel="icon" href="{{ asset('assets/img/srs-favicon.png') }}" />
+<link rel="icon" href="{{ asset('assets/img/logo/srs-logo.png') }}" />
 
 <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}" />
 <link rel="stylesheet" href="{{ asset('assets/css/vendor.css') }}" />

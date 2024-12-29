@@ -5,10 +5,10 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="logo d-flex d-lg-none justify-content-center align-items-end">
-                        {{-- <a href="index.html">
+                        <a href="index.html">
                             <img src="assets/img/logo/srs-logo.png" height="50" alt="Brand Logo">
-                        </a> --}}
-                        <h1 class="logo-styles">SRS</h1><span class="logo-styles ms-2" style="margin-bottom: -3px;">Exports Holdings</span>
+                        </a>
+                        {{-- <h1 class="logo-styles">SRS</h1><span class="logo-styles ms-2" style="margin-bottom: -3px;">Exports Holdings</span> --}}
                     </div>
                 </div>
             </div>
@@ -23,16 +23,16 @@
                 <div class="col-12">
                     <div class="main-menu d-flex justify-content-between">
                         <div class="logo d-none d-lg-block">
-                            {{-- <a href="{{ route('home') }}">
+                            <a href="{{ route('home') }}">
                                 <img src="assets/img/logo/srs-logo.png" height="50" alt="brand logo">
-                            </a> --}}
-                            <h1 class="logo-styles">SRS Exports Holdings</h1>
+                            </a>
+                            {{-- <h1 class="logo-styles">SRS Exports Holdings</h1> --}}
                         </div>
                         <div class="sticky-logo d-lg-none justify-content-center align-items-end">
-                            {{-- <a href="{{ route('home') }}">
-                                <img src="assets/img/logo/srs-logo.png" height="50" alt="brand logo">
-                            </a> --}}
-                            <h1 class="logo-styles">SRS</h1><span class="logo-styles ms-2" style="margin-bottom: -3px;">Exports Holdings</span>
+                            <a href="{{ route('home') }}">
+                                <img src="assets/img/logo/srs-logo.png" height="40" alt="brand logo">
+                            </a>
+                            {{-- <h1 class="logo-styles">SRS</h1><span class="logo-styles ms-2" style="margin-bottom: -3px;">Exports Holdings</span> --}}
                         </div>
                         <!-- main menu navbar start -->
                         <nav id="mobile-menu">

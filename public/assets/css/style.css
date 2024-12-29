@@ -611,7 +611,7 @@ table tbody {
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
     .logo {
-        max-width: 250px;
+        max-width: 150px;
         margin: 0 auto;
     }
 }
