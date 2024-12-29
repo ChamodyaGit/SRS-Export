@@ -106,7 +106,7 @@
                     <div class="payment-method text-md-end text-center py-0">
                         {{-- <img src="assets/img/payment.png" alt=""> --}}
                         <a href="#" class="social-icon-colors fs-4 ms-3"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="social-icon-colors fs-4 ms-3"><i class="fa fa-whatsapp"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+94710215712&text=Hello, more information!" class="social-icon-colors fs-4 ms-3"><i class="fa fa-whatsapp"></i></a>
                         <a href="#" class="social-icon-colors fs-4 ms-3"><i class="fa fa-twitter"></i></a>
                         <a href="#" class="social-icon-colors fs-4 ms-3"><i class="fa fa-youtube"></i></a>
                     </div>

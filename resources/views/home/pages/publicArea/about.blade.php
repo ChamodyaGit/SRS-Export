@@ -62,10 +62,10 @@
                             <div class="team-thumb img-full">
                                 <img src="assets/img/team/ceo_img.png" alt="">
                                 <div class="team-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/darshana.kumara.14/"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="https://linkedin.com/in/darshana-sampath-kumara"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://api.whatsapp.com/send?phone=+94710215712&text=Hello, more information!"><i class="fa fa-whatsapp"></i></a>
                                 </div>
                             </div>
                             <div class="team-content text-center">
