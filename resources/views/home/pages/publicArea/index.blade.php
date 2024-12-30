@@ -74,7 +74,7 @@
                         </div>
                         <div class="features-content">
                             <h5>High Quality</h5>
-                            <p>GMP certified, Fair Trade practices</p>
+                            <p>Supply from a GMP certified company</p>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                         </div>
                         <div class="features-content">
                             <h5>High Quality</h5>
-                            <p>GMP certified, Fair Trade practices</p>
+                            <p>Supply from a GMP certified company</p>
                         </div>
                     </div>
                 </div>
@@ -299,7 +299,8 @@
                     </div> --}}
                     <div class="section-title text-center mt-md-3">
                         <h2>Categories</h2>
-                        <p class="pt-md-3">We are producing the below mentioned all categories of pure Ceylon Cinnamon in a hygienic condition.</p>
+                        <p class="pt-md-3">We are producing the below mentioned all categories of pure Ceylon Cinnamon in a
+                            hygienic condition.</p>
                     </div>
                     <div class="brand-active slick-padding justify-content-center">
                         <div class="brand-item text-center">
@@ -589,8 +590,8 @@
                                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                                 data-bs-parent="#choose-us">
                                                 <div class="card-body">
-                                                    Good Manufacturing Process(GMP) certified Company and Fair Trade to
-                                                    ensure product quality and ethical practices.
+                                                    Supply from a Good Manufacturing Process (GMP) certified company to
+                                                    ensure product quality and ethical practices
                                                 </div>
                                             </div>
                                         </div>

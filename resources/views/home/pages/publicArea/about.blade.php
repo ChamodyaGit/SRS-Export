@@ -62,10 +62,14 @@
                             <div class="team-thumb img-full">
                                 <img src="assets/img/team/ceo_img.png" alt="">
                                 <div class="team-social">
-                                    <a href="https://www.facebook.com/darshana.kumara.14/"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/darshana.kumara.14/"><i
+                                            class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="https://linkedin.com/in/darshana-sampath-kumara"><i class="fa fa-linkedin"></i></a>
-                                    <a href="https://api.whatsapp.com/send?phone=+94710215712&text=Hello, more information!"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="https://linkedin.com/in/darshana-sampath-kumara"><i
+                                            class="fa fa-linkedin"></i></a>
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=+94710215712&text=Hello, more information!"><i
+                                            class="fa fa-whatsapp"></i></a>
                                 </div>
                             </div>
                             <div class="team-content text-center">
@@ -185,8 +189,8 @@
                         <div class="single-choose-item text-center mb-md-30 mb-sm-30">
                             <i class="fa fa-star"></i>
                             <h4>Quality Assurance</h4>
-                            <p>Good Manufacturing Process(GMP) certified Company and Fair Trade to ensure product quality
-                                and ethical practices.</p>
+                            <p>Supply from a Good Manufacturing Process (GMP) certified company to ensure product quality
+                                and ethical practices</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
