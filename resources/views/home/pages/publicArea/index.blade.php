@@ -11,7 +11,7 @@
                                 <div class="content-inner">
                                     <div class="slider-content">
                                         <h1>Exporter of premium Ceylon cinnamon products</h1>
-                                        <p>SRS Exports Holdings is specializing in the export of high-quality Ceylon
+                                        <p>SRS EXPORTS HOLDINGS is specializing in the export of high-quality Ceylon
                                             cinnamon products in Southern Province of Sri Lanka established in 2023</p>
                                         <a href="{{ route('contact') }}" class="btn">Contact Us</a>
                                     </div>
@@ -116,8 +116,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title text-center pt-62">
-                            <h2>Popular Categories</h2>
+                        <div class="welcome-content-inner mt-3 mt-md-5">
+                            <p>Welcome to <b>SRS EXPORTS HOLDINGS</b>. We are one of the fastest-growing suppliers of
+                                organic Ceylon cinnamon in both the global wholesale and retail markets. Our product range
+                                includes both Organic and conventional Ceylon Cinnamon Sticks, Cinnamon Powder and Cinnamon
+                                Oil. All sourced directly from the beautiful island of Sri Lanka.</p>
+                        </div>
+                        <div class="welcome-sub-content-inner mt-3">
+                            <p>Strict adherence to international safety standards is maintained during the cultivation and
+                                harvesting of all cinnamon plants. We put our customers' health first and make sure that our
+                                products adhere to the strictest safety and quality standards. SRS EXPORTS HOLDINGS is an
+                                officially recognized exporter/seller of Ceylon Cinnamon by the Export Development Board of
+                                Sri Lanka. We are pleased to provide Ceylon cinnamon, the best in the world, which comes
+                                from Sri Lanka, the fascinating Wonder of Asia.</p>
                         </div>
                     </div>
                 </div>

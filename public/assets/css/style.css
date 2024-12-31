@@ -3288,6 +3288,22 @@ only screen and (max-width: 767.98px) {
     }
 }
 
+.welcome-content-inner p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.welcome-content-inner p b {
+    font-style: normal;
+}
+
+.welcome-sub-content-inner p {
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
 .testimonial-content-inner p {
     font-size: 15px;
     font-style: italic;

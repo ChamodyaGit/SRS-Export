@@ -28,8 +28,8 @@
                     <!-- About Text Start -->
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-text-wrap">
-                            <h2><span>Provide Best</span>SRS Exports Holdings</h2>
-                            <p>SRS Exports Holdings is specializing in the export of high-quality Ceylon cinnamon products
+                            <h2><span>Provide Best</span>SRS EXPORTS HOLDINGS</h2>
+                            <p>SRS EXPORTS HOLDINGS is specializing in the export of high-quality Ceylon cinnamon products
                                 in Southern Province of Sri Lanka established in 2023. We have taken utmost of care in
                                 processing our products to uplift your healthy lifestyle. </p>
                             <p>Ceylon cinnamon is known as ‘true cinnamon’ and ‘pure cinnamon’. It is obtained from the bark

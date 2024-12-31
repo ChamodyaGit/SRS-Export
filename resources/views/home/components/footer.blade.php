@@ -8,7 +8,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="footer-widget">
                             <div class="footer-widget-title">
-                                <h4>SRS Exports Holdings</h4>
+                                <h4>SRS EXPORTS HOLDINGS</h4>
                             </div>
                             <div class="footer-widget-body">
                                 <div class="newsletter-desc">

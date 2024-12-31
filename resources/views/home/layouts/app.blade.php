@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="To deliver the finest quality Ceylon cinnamon to global markets while promoting sustainable and ethical farming practices.">
-    <title>SRS Exports Holdings</title>
+    <title>SRS EXPORTS HOLDINGS</title>
 
     @include('home.libraries.styles')
 
