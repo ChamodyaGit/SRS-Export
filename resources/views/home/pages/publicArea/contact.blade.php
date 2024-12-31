@@ -28,14 +28,15 @@
                     <div class="col-lg-6">
                         <div class="contact-message pt-56 pb-60">
                             <h2>Tell us what you want</h2>
-                            <form id="contact-form" action="{{ route('send.mail') }}" method="POST" class="contact-form">
+                            <form id="contact-form" class="contact-form">
                                 @csrf
                                 <div class="row">
                                     <div class="col-12">
                                         <input name="name" placeholder="Name *" type="text" required>
                                     </div>
                                     <div class="col-12">
-                                        <input name="email" placeholder="Email *" type="text" required>
+                                        <input name="email" placeholder="Email *" type="email" required>
+                                        <!-- Changed type to email -->
                                     </div>
                                     <div class="col-12">
                                         <div class="contact2-textarea text-center">
@@ -48,14 +49,72 @@
                                         </div>
                                     </div>
                                     <div class="col-12 d-flex justify-content-center">
-                                        <p class="form-messege">
-                                            @if (session('success'))
-                                                <span class="text-success">{{ session('success') }}</span>
-                                            @endif
-                                        </p>
+                                        <p class="form-message"></p> <!-- Fixed typo here -->
                                     </div>
                                 </div>
                             </form>
+
+                            <script>
+                                document.getElementById('contact-form').addEventListener('submit', function(event) {
+                                    event.preventDefault(); // Prevent the normal form submission
+
+                                    // Disable the submit button to prevent multiple submissions
+                                    const submitButton = document.querySelector('button[type="submit"]');
+                                    submitButton.disabled = true;
+                                    submitButton.textContent = 'Sending...';
+
+                                    // Get the CSRF token
+                                    const csrfToken = document.querySelector('input[name="_token"]').value;
+
+                                    // Prepare form data
+                                    let formData = new FormData(this);
+                                    formData.append('_token', csrfToken); // Add CSRF token manually
+
+                                    // Clear previous messages
+                                    let messageElement = document.querySelector('.form-message'); // Fixed typo here
+                                    messageElement.textContent = '';
+
+                                    // Send the form data using Fetch API
+                                    fetch("{{ route('send.mail') }}", {
+                                            method: 'POST',
+                                            body: formData,
+                                        })
+                                        .then(response => response.json())
+                                        .then(data => {
+                                            if (data.success) {
+                                                // Show success message
+                                                messageElement.textContent = data.success;
+                                                messageElement.style.color = 'green';
+
+                                                setTimeout(function() {
+                                                    location.reload(); // Reload the page
+                                                }, 3000);
+                                            } else if (data.error) {
+                                                // Show error message
+                                                messageElement.textContent = data.error;
+                                                messageElement.style.color = 'red';
+
+                                                setTimeout(function() {
+                                                    location.reload(); // Reload the page
+                                                }, 3000);
+                                            }
+                                        })
+                                        .catch(error => {
+                                            messageElement.textContent = 'Something went wrong. Please try again later.';
+                                            messageElement.style.color = 'red';
+
+                                            setTimeout(function() {
+                                                location.reload(); // Reload the page
+                                            }, 3000);
+                                        })
+                                        .finally(() => {
+                                            // Re-enable the submit button after the request is complete
+                                            submitButton.disabled = false;
+                                            submitButton.textContent = 'Send Message';
+                                        });
+                                });
+                            </script>
+
                         </div>
                     </div>
                     <div class="col-lg-6">

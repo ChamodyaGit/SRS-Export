@@ -58,13 +58,9 @@ class HomeController extends Controller
             // Send the email
             Mail::to('chamodya152@gmail.com')->send(new ContactMail($details));
 
-            // Redirect back with success message in the session
-            return redirect()->route('contact')->with('success', 'Your message has been sent successfully!');
+            return response()->json(['success' => 'Your message has been sent successfully!']);
         } catch (\Exception $e) {
-            // Redirect back with error message in the session
-            return redirect()->back()->withErrors(['error' => 'Failed to send email. Please try again later.']);
+            return response()->json(['error' => 'Failed to send email. Please try again later.'], 500);
         }
     }
-
-
 }
