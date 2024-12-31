@@ -28,7 +28,7 @@
                     <div class="col-lg-6">
                         <div class="contact-message pt-56 pb-60">
                             <h2>Tell us what you want</h2>
-                            <form id="contact-form" action="{{ route('mail.send') }}" method="post" class="contact-form"
+                            <form id="contact-form" action="/send-message" method="post" class="contact-form"
                                 enctype="multipart/form-data">
                                 @csrf
                                 <div class="row">

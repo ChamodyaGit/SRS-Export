@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\ContactMessage;
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -54,7 +54,7 @@ class HomeController extends Controller
             ];
             // dd($mailData);
 
-            Mail::to('chamodya152@gmail.com')->send(new ContactMessage($mailData));
+            Mail::to('chamodya152@gmail.com')->send(new ContactMail($mailData));
 
             return response()->json(['message' => 'Email sent successfully!']);
         } catch (\Exception $e) {

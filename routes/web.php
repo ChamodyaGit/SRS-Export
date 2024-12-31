@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +24,21 @@ Route::get('/alba', [HomeController::class, 'albaPage'])->name('alba');
 Route::get('/mexican', [HomeController::class, 'mexicanPage'])->name('mexican');
 
 Route::post('/send', [HomeController::class, 'sendMail'])->name('mail.send');
+
+Route::post('/send-message', function (Illuminate\Http\Request $request) {
+    $request->validate([
+        'name' => 'required',
+        'email' => 'required|email',
+        'message' => 'required',
+    ]);
+
+    $details = [
+        'name' => $request->name,
+        'email' => $request->email,
+        'message' => $request->message,
+    ];
+
+    Mail::to('chamodya152@gmail.com')->send(new ContactMail($details));
+
+    return back()->with('success', 'Message sent successfully!');
+});
