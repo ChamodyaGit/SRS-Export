@@ -68,10 +68,10 @@
                                 <li>
                                     <a href="#" class="social-icon-colors fs-4 me-2"><i
                                             class="fa fa-facebook"></i></a>
-                                    <a href="#" class="social-icon-colors fs-4 me-2"><i
+                                    <a href="https://api.whatsapp.com/send?phone=+94710215712&text=Hello, more information!" class="social-icon-colors fs-4 me-2"><i
                                             class="fa fa-whatsapp"></i></a>
-                                    <a href="#" class="social-icon-colors fs-4 me-2"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="social-icon-colors fs-4 me-2"><i class="fa fa-youtube"></i></a>
+                                    {{-- <a href="#" class="social-icon-colors fs-4 me-2"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="social-icon-colors fs-4 me-2"><i class="fa fa-youtube"></i></a> --}}
                                 </li>
                             </ul>
                             <div class="working-time">

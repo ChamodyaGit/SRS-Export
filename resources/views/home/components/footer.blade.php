@@ -98,8 +98,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="copyright-text text-center text-md-start" style="margin-top: 5px;">
-                        <p>© {{ date('Y') }} <b>SRS</b> Made with <i class="fa fa-heart text-danger"></i> by <a
-                                href="mailto:chamodya152@gmail.com">Chamodya</a></p>
+                        <p>© {{ date('Y') }} <b>SRS EXPORTS HOLDINGS</b> Made by <a
+                                href="mailto:chamodya152@gmail.com">Chamodya</a>. All Rights Reserved.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -107,8 +107,8 @@
                         {{-- <img src="assets/img/payment.png" alt=""> --}}
                         <a href="#" class="social-icon-colors fs-4 ms-3"><i class="fa fa-facebook"></i></a>
                         <a href="https://api.whatsapp.com/send?phone=+94710215712&text=Hello, more information!" class="social-icon-colors fs-4 ms-3"><i class="fa fa-whatsapp"></i></a>
-                        <a href="#" class="social-icon-colors fs-4 ms-3"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="social-icon-colors fs-4 ms-3"><i class="fa fa-youtube"></i></a>
+                        {{-- <a href="#" class="social-icon-colors fs-4 ms-3"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="social-icon-colors fs-4 ms-3"><i class="fa fa-youtube"></i></a> --}}
                     </div>
                 </div>
             </div>
