@@ -28,8 +28,7 @@
                     <div class="col-lg-6">
                         <div class="contact-message pt-56 pb-60">
                             <h2>Tell us what you want</h2>
-                            <form id="contact-form" action="/send-message" method="post" class="contact-form"
-                                enctype="multipart/form-data">
+                            <form id="contact-form" action="{{ route('send.mail') }}" method="POST" class="contact-form">
                                 @csrf
                                 <div class="row">
                                     <div class="col-12">
@@ -40,14 +39,20 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="contact2-textarea text-center">
-                                            <textarea placeholder="Message *" name="message" class="form-control2" required=""></textarea>
+                                            <textarea placeholder="Message *" name="message" class="form-control2" required></textarea>
                                         </div>
+                                    </div>
+                                    <div class="col-12">
                                         <div class="contact-btn">
                                             <button class="btn btn__bg btn__sqr" type="submit">Send Message</button>
                                         </div>
                                     </div>
                                     <div class="col-12 d-flex justify-content-center">
-                                        <p class="form-messege"></p>
+                                        <p class="form-messege">
+                                            @if (session('success'))
+                                                <span class="text-success">{{ session('success') }}</span>
+                                            @endif
+                                        </p>
                                     </div>
                                 </div>
                             </form>
@@ -68,8 +73,8 @@
                                 <li>
                                     <a href="#" class="social-icon-colors fs-4 me-2"><i
                                             class="fa fa-facebook"></i></a>
-                                    <a href="https://api.whatsapp.com/send?phone=+94710215712&text=Hello, more information!" class="social-icon-colors fs-4 me-2"><i
-                                            class="fa fa-whatsapp"></i></a>
+                                    <a href="https://api.whatsapp.com/send?phone=+94710215712&text=Hello, more information!"
+                                        class="social-icon-colors fs-4 me-2"><i class="fa fa-whatsapp"></i></a>
                                     {{-- <a href="#" class="social-icon-colors fs-4 me-2"><i class="fa fa-twitter"></i></a>
                                     <a href="#" class="social-icon-colors fs-4 me-2"><i class="fa fa-youtube"></i></a> --}}
                                 </li>

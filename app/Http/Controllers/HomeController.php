@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
@@ -47,18 +48,23 @@ class HomeController extends Controller
         ]);
 
         try {
-            $mailData = [
+            // Prepare email details
+            $details = [
                 'name' => $request->name,
                 'email' => $request->email,
                 'message' => $request->message,
             ];
-            // dd($mailData);
 
-            Mail::to('chamodya152@gmail.com')->send(new ContactMail($mailData));
+            // Send the email
+            Mail::to('chamodya152@gmail.com')->send(new ContactMail($details));
 
-            return response()->json(['message' => 'Email sent successfully!']);
+            // Redirect back with success message in the session
+            return redirect()->route('contact')->with('success', 'Your message has been sent successfully!');
         } catch (\Exception $e) {
-            return response()->json(['error' => $e->getMessage()], 500);
+            // Redirect back with error message in the session
+            return redirect()->back()->withErrors(['error' => 'Failed to send email. Please try again later.']);
         }
     }
+
+
 }
