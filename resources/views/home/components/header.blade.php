@@ -5,7 +5,7 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="logo d-flex d-lg-none justify-content-center">
-                        <a href="index.html">
+                        <a href="{{ route('home') }}">
                             <img src="assets/img/logo/srs-logo.png" height="45" alt="Brand Logo">
                         </a>
                         {{-- <h1 class="logo-styles">SRS</h1><span class="logo-styles ms-2" style="margin-bottom: -3px;">Exports Holdings</span> --}}

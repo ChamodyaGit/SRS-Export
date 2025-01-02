@@ -1,5 +1,48 @@
 @extends('home.layouts.app')
 @section('content')
+    <style>
+        .gallery-row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+            -ms-flex: 33.33%;
+            /* IE10 */
+            flex: 33.33%;
+            max-width: 33.33%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+            .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
     <main>
         <!-- breadcrumb area start -->
         <div class="breadcrumb-area">
@@ -32,62 +75,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="process-container">
-                    <!-- Step 1 -->
-                    <div class="process-item">
-                        <img src="assets/img/process/process01.jpg" alt="Step 1">
-                        <p>Step 1</p>
-                    </div>
-                    <div class="arrow-right">&#10145;</div>
-                    <!-- Step 2 -->
-                    <div class="process-item">
-                        <img src="assets/img/process/process02.jpg" alt="Step 2">
-                        <p>Step 2</p>
-                    </div>
-                    <div class="arrow-right">&#10145;</div>
-                    <!-- Step 3 -->
-                    <div class="process-item">
-                        <img src="assets/img/process/process03.jpg" alt="Step 3">
-                        <p>Step 3</p>
-                    </div>
-                    <div class="arrow-right">&#10145;</div>
-                    <!-- Step 4 -->
-                    <div class="process-item">
-                        <img src="assets/img/process/process04.jpg" alt="Step 4">
-                        <p>Step 4</p>
-                    </div>
-                    <div class="arrow-down">&#11015;</div>
-                    <!-- Step 5 -->
-                    <div class="process-item">
-                        <img src="assets/img/process/process05.jpg" alt="Step 5">
-                        <p>Step 5</p>
-                    </div>
-                    <div class="arrow-right">&#10145;</div>
-                    <!-- Step 6 -->
-                    <div class="process-item">
-                        <img src="assets/img/process/process06.jpg" alt="Step 6">
-                        <p>Step 6</p>
-                    </div>
-                    <div class="arrow-right">&#10145;</div>
-                    <!-- Step 7 -->
-                    <div class="process-item">
-                        <img src="assets/img/process/process07.jpg" alt="Step 7">
-                        <p>Step 7</p>
-                    </div>
-                    <div class="arrow-right">&#10145;</div>
-                    <!-- Step 8 -->
-                    <div class="process-item">
-                        <img src="assets/img/process/process08.jpg" alt="Step 8">
-                        <p>Step 8</p>
-                    </div>
-                    <div class="arrow-down">&#11015;</div>
-                    <!-- Step 9 -->
-                    <div class="process-item">
-                        <img src="assets/img/process/process09.jpg" alt="Step 9">
-                        <p>Step 9</p>
-                    </div>
-                </div> --}}
-                <div class="grid-container">
+                {{-- <div class="grid-container">
                     <div class="img-container wide">
                         <img src="assets/img/process/process01.jpg" alt="Image 1" />
                     </div>
@@ -114,6 +102,23 @@
                     </div>
                     <div class="img-container">
                         <img src="assets/img/process/process09.jpg" alt="Image 9" />
+                    </div>
+                </div> --}}
+                <div class="gallery-row">
+                    <div class="column">
+                        <img src="assets/img/process/process01.jpg" style="width:100%">
+                        <img src="assets/img/process/process02.jpg" style="width:100%">
+                        <img src="assets/img/process/process03.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="assets/img/process/process04.jpg" style="width:100%">
+                        <img src="assets/img/process/process05.jpg" style="width:100%">
+                        <img src="assets/img/process/process06.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="assets/img/process/process07.jpg" style="width:100%">
+                        <img src="assets/img/process/process08.jpg" style="width:100%">
+                        <img src="assets/img/process/process09.jpg" style="width:100%">
                     </div>
                 </div>
             </div>
