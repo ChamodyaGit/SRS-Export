@@ -56,7 +56,7 @@ class HomeController extends Controller
             ];
 
             // Send the email
-            Mail::to('chamodya152@gmail.com')->send(new ContactMail($details));
+            Mail::to('sampathwkd@gmail.com')->send(new ContactMail($details));
 
             return response()->json(['success' => 'Your message has been sent successfully!']);
         } catch (\Exception $e) {
