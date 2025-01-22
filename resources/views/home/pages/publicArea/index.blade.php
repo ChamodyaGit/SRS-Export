@@ -132,64 +132,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    {{-- <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="category-single-item mb-md-30 mb-sm-30">
-                            <div class="category-item-inner color1 text-center">
-                                <div class="category-content">
-                                    <h2><a href="{{ route('alba') }}">Alba Cinnamon</a></h2>
-                                </div>
-                                <div class="category-thumb">
-                                    <a href="{{ route('alba') }}">
-                                        <img src="assets/img/category/cat-1.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="category-single-item mb-md-30 mb-sm-30">
-                            <div class="category-item-inner color2 text-center">
-                                <div class="category-content">
-                                    <h2><a href="product-details.html">C5 Special</a></h2>
-                                </div>
-                                <div class="category-thumb">
-                                    <a href="product-details.html">
-                                        <img src="assets/img/category/cat-2.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="category-single-item mb-md-30 mb-sm-30">
-                            <div class="category-item-inner color3 text-center">
-                                <div class="category-content">
-                                    <h2><a href="{{ route('mexican') }}">M5 Special</a></h2>
-                                </div>
-                                <div class="category-thumb">
-                                    <a href="{{ route('mexican') }}">
-                                        <img src="assets/img/category/cat-3.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="category-single-item mb-md-30 mb-sm-30">
-                            <div class="category-item-inner color4 text-center">
-                                <div class="category-content">
-                                    <h2><a href="product-details.html">H2 Special</a></h2>
-                                </div>
-                                <div class="category-thumb">
-                                    <a href="product-details.html">
-                                        <img src="assets/img/category/cat-4.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
-                </div>
             </div>
         </section>
         <!-- popular category end -->
@@ -708,11 +650,10 @@
                                         <div class="tab-content">
                                             <div class="tab-pane fade" id="testimonial_one">
                                                 <div class="testimonial-content-inner">
-                                                    <p>“ Great theme, excellent support. We had a few small issues with
-                                                        getting the dropdown menus to work and support fixed them and
-                                                        let us know which files were changed so that we could replicate
-                                                        from dev to production. Very happy both with the theme and the
-                                                        company. Highly recommended. ”</p>
+                                                    <p>“ I’ve been sourcing cinnamon from SRS Exports Holdings for years,
+                                                        and their quality is consistently excellent. The
+                                                        shipments are always timely, and their customer service is
+                                                        top-notch. Highly recommend! ”</p>
                                                     <div class="ratings">
                                                         <span><i class="ion-android-star"></i></span>
                                                         <span><i class="ion-android-star"></i></span>
@@ -727,11 +668,9 @@
                                             </div>
                                             <div class="tab-pane fade active show" id="testimonial_two">
                                                 <div class="testimonial-content-inner">
-                                                    <p>“ Great theme, excellent support. We had a few small issues with
-                                                        getting the dropdown menus to work and support fixed them and
-                                                        let us know which files were changed so that we could replicate
-                                                        from dev to production. Very happy both with the theme and the
-                                                        company. Highly recommended. ”</p>
+                                                    <p>“ SRS Exports Holdings is our trusted partner for premium cinnamon.
+                                                        Their attention to detail in sourcing and exporting ensures that we
+                                                        always receive the best products. Great company to work with! ”</p>
                                                     <div class="ratings">
                                                         <span><i class="ion-android-star"></i></span>
                                                         <span><i class="ion-android-star"></i></span>
@@ -746,11 +685,10 @@
                                             </div>
                                             <div class="tab-pane fade" id="testimonial_three">
                                                 <div class="testimonial-content-inner">
-                                                    <p>“ Great theme, excellent support. We had a few small issues with
-                                                        getting the dropdown menus to work and support fixed them and
-                                                        let us know which files were changed so that we could replicate
-                                                        from dev to production. Very happy both with the theme and the
-                                                        company. Highly recommended. ”</p>
+                                                    <p>“ We’ve been working with SRS Exports Holdings for our cinnamon
+                                                        needs, and they never disappoint. The cinnamon is always of the
+                                                        highest quality, and the communication throughout the process is
+                                                        seamless. A reliable and professional exporter! ”</p>
                                                     <div class="ratings">
                                                         <span><i class="ion-android-star"></i></span>
                                                         <span><i class="ion-android-star"></i></span>
