@@ -629,19 +629,19 @@
                                             <li>
                                                 <a data-bs-toggle="tab" href="#testimonial_one">
                                                     <img class="testimonial-thumb"
-                                                        src="assets/img/testimonial/team-member-1.jpg" alt="">
+                                                        src="assets/img/testimonial/customer-avatar.jpg" alt="">
                                                 </a>
                                             </li>
                                             <li>
                                                 <a class="active" data-bs-toggle="tab" href="#testimonial_two">
                                                     <img class="testimonial-thumb"
-                                                        src="assets/img/testimonial/team-member-2.jpg" alt="">
+                                                        src="assets/img/testimonial/customer-avatar.jpg" alt="">
                                                 </a>
                                             </li>
                                             <li>
                                                 <a data-bs-toggle="tab" href="#testimonial_three">
                                                     <img class="testimonial-thumb"
-                                                        src="assets/img/testimonial/team-member-3.jpg" alt="">
+                                                        src="assets/img/testimonial/customer-avatar.jpg" alt="">
                                                 </a>
                                             </li>
                                         </ul>
@@ -662,7 +662,7 @@
                                                         <span><i class="ion-android-star"></i></span>
                                                     </div>
                                                     <div class="designation">
-                                                        Uzzal Hossain / <span>developer of HT</span>
+                                                        Alper
                                                     </div>
                                                 </div>
                                             </div>
@@ -679,7 +679,7 @@
                                                         <span><i class="ion-android-star"></i></span>
                                                     </div>
                                                     <div class="designation">
-                                                        Jenifer brown / <span>manager of HT</span>
+                                                        Antony
                                                     </div>
                                                 </div>
                                             </div>
@@ -697,7 +697,7 @@
                                                         <span><i class="ion-android-star"></i></span>
                                                     </div>
                                                     <div class="designation">
-                                                        erik jhonson / <span>designer of HT</span>
+                                                        Mamoru
                                                     </div>
                                                 </div>
                                             </div>
